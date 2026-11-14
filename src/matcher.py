@@ -43,11 +43,12 @@ class InquiryMatcher:
         self.data_path = data_path
         self.df = pd.read_csv(data_path)
 
-        # 将产品名称 + 材质拼接为完整文本，用于向量化
+        # 将产品名称 + 材质 + 供应商名称拼接为完整文本，用于向量化
         # 这样既能匹配产品类型（如 "plush toy"）也能匹配材质（如 "natural rubber"）
         product_texts = (
             self.df["product_name"].fillna("") + " " +
-            self.df["material"].fillna("")
+            self.df["material"].fillna("") + " " +
+            self.df.get("supplier_name", pd.Series([""] * len(self.df))).fillna("")
         )
 
         # 初始化 TF-IDF 向量化器

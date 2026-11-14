@@ -1,41 +1,41 @@
-product_id,product_name,material,dimensions,moq,unit_price
-SP001,Plush Squeaky Dog Toy - Bone Shape,Plush + PP Cotton,20cm,500,1.2
-SP002,Plush Squeaky Dog Toy - Ball Shape,Plush + PP Cotton,15cm,300,0.95
-SP003,Soft Plush Dog Toy - Duck Design,Plush + Squeaker,25cm,500,1.5
-SP004,Cute Plush Cat Toy - Mouse Shape,Plush + Catnip,10cm,1000,0.55
-SP005,Plush Squeaker Toy - Elephant Shape,Plush + PP Cotton,30cm,500,1.8
-SP006,Durable Plush Dog Toy - Rope Leg,Plush + Cotton Rope,35cm,500,2.1
-SP007,Soft Squeaky Plush Toy - Pig Shape,Plush + Squeaker,20cm,500,1.25
-SP008,Plush Dog Chew Toy - Dinosaur,Plush + PP Cotton,28cm,300,1.65
-SP009,Natural Rubber Dog Ball - Bouncy,Natural Rubber,6.5cm,1000,0.8
-SP010,TPR Squeaky Dog Toy - Star Shape,TPR (Thermoplastic Rubber),12cm,500,1.1
-SP011,Rubber Dog Chew Toy - Bone Shape,Natural Rubber,18cm,500,1.35
-SP012,Durable Rubber Ball for Large Dogs,Natural Rubber,8cm,500,1.5
-SP013,TPR Dog Toy - Dispenser Treat Ball,TPR,7cm,1000,1.05
-SP014,Rubber Squeaky Toy - Hedgehog Shape,Natural Rubber + Squeaker,14cm,500,1.2
-SP015,Heavy Duty Rubber Chew Toy - Ring,Natural Rubber,16cm,300,1.75
-SP016,Cotton Rope Dog Toy - Tug Knot,Cotton Rope,30cm,500,1.0
-SP017,Durable Rope Toy - Three Knot,Cotton Rope,50cm,300,1.85
-SP018,Rope Tug Toy for Dogs - Bone Shape,Cotton + Polyester Rope,25cm,500,1.15
-SP019,Multi-Color Rope Dog Toy - Floss,Cotton Rope,20cm,1000,0.7
-SP020,Thick Rope Tug Toy for Large Dogs,Heavy Duty Cotton Rope,60cm,200,2.5
-SP021,Catnip Mouse Toy - Plush with Bell,Plush + Catnip + Bell,8cm,1000,0.45
-SP022,Interactive Cat Feather Wand Toy,Feather + Plastic Stick,80cm,500,0.9
-SP023,Cat Tunnel Toy - Crinkle Collapsible,Polyester + Crinkle Paper,35x35x80cm,300,3.2
-SP024,Cat Ball Toy with Bell Inside,Plastic + Bell,4cm,2000,0.25
-SP025,Cat Scratching Board - Cardboard,Corrugated Cardboard,40x25cm,300,2.8
-SP026,Laser Cat Toy - Interactive Pointer,Aluminum + LED,10cm,500,1.95
-SP027,Pet Dog Collar - Nylon Adjustable,Nylon Webbing + Metal Buckle,2.5cm x 45cm,500,1.3
-SP028,Dog Leash - Nylon Reflective,Nylon + Metal Hook,1.5cm x 120cm,500,1.6
-SP029,Pet Dog Bed - Washable Soft Cushion,Fleece + PP Cotton,50x40cm,200,4.5
-SP030,Dog Bowl - Stainless Steel Non-Slip,Stainless Steel,15cm diameter,500,1.75
-SP031,Pet Carrier Bag - Portable Travel,Oxford Cloth + Mesh,45x28x28cm,200,5.8
-SP032,Dog Poop Bag Dispenser with Leash Clip,ABS Plastic,8x5cm,2000,0.35
-SP033,Pet Grooming Glove - Silicone Brush,Silicone + Mesh,One Size,500,1.2
-SP034,Dog Clicker Training Tool,ABS Plastic + Metal,6x4cm,1000,0.3
-SP035,Pet Water Bottle - Portable Travel,PP Plastic + Silicone,500ml,500,1.85
-SP036,Dog Cooling Bandana - Summer,Cooling Fabric + PVA,50x5cm,500,1.4
-SP037,Christmas Plush Dog Toy - Santa Claus,Plush + Squeaker,25cm,500,1.7
-SP038,Halloween Dog Costume - Pumpkin,Polyester + Cotton,M/L/XL,300,2.3
-SP039,Easter Plush Bunny Dog Toy - Squeaky,Plush + PP Cotton,22cm,500,1.55
-SP040,Valentine Plush Dog Toy - Heart Shape,Plush + Squeaker,18cm,500,1.45
+product_id,product_name,material,dimensions,moq,unit_price,supplier_name,contact_email,country,city,lead_time,certification
+SP001,Plush Squeaky Dog Toy - Bone Shape,Plush + PP Cotton,20cm,500,1.2,"Yiwu Mayer Pet Products Co., Ltd.",sales@mayerpet.com,China,Yiwu,15 days,"BSCI, CE"
+SP002,Plush Squeaky Dog Toy - Ball Shape,Plush + PP Cotton,15cm,300,0.95,Yangzhou Lucky Pet Toy Factory,lucky.pettoy@yzlucky.cn,China,Yangzhou,12 days,ISO 9001
+SP003,Soft Plush Dog Toy - Duck Design,Plush + Squeaker,25cm,500,1.5,Dongguan Harmony Toys Mfg. Ltd.,info@harmonytoys.cn,China,Dongguan,18 days,"ICTI, BSCI"
+SP004,Cute Plush Cat Toy - Mouse Shape,Plush + Catnip,10cm,1000,0.55,Qingdao Pawsome Pet Supplies Co.,export@pawsomepet.cn,China,Qingdao,10 days,"CE, RoHS"
+SP005,Plush Squeaker Toy - Elephant Shape,Plush + PP Cotton,30cm,500,1.8,"Yiwu Mayer Pet Products Co., Ltd.",sales@mayerpet.com,China,Yiwu,15 days,"BSCI, CE"
+SP006,Durable Plush Dog Toy - Rope Leg,Plush + Cotton Rope,35cm,500,2.1,Cangnan Greenleaf Textile Ltd.,greenleaf@cntextile.cn,China,Wenzhou,20 days,OEKO-TEX
+SP007,Soft Squeaky Plush Toy - Pig Shape,Plush + Squeaker,20cm,500,1.25,Dongguan Harmony Toys Mfg. Ltd.,info@harmonytoys.cn,China,Dongguan,18 days,"ICTI, BSCI"
+SP008,Plush Dog Chew Toy - Dinosaur,Plush + PP Cotton,28cm,300,1.65,Yangzhou Lucky Pet Toy Factory,lucky.pettoy@yzlucky.cn,China,Yangzhou,12 days,ISO 9001
+SP009,Natural Rubber Dog Ball - Bouncy,Natural Rubber,6.5cm,1000,0.8,Ningbo Champion Rubber Tech Ltd.,champion.rubber@nbchampion.cn,China,Ningbo,14 days,"SGS, FDA"
+SP010,TPR Squeaky Dog Toy - Star Shape,TPR (Thermoplastic Rubber),12cm,500,1.1,Shenzhen Petstar Industrial Co.,petstar@szpetstar.cn,China,Shenzhen,10 days,"RoHS, REACH"
+SP011,Rubber Dog Chew Toy - Bone Shape,Natural Rubber,18cm,500,1.35,Ningbo Champion Rubber Tech Ltd.,champion.rubber@nbchampion.cn,China,Ningbo,14 days,"SGS, FDA"
+SP012,Durable Rubber Ball for Large Dogs,Natural Rubber,8cm,500,1.5,Ningbo Champion Rubber Tech Ltd.,champion.rubber@nbchampion.cn,China,Ningbo,14 days,"SGS, FDA"
+SP013,TPR Dog Toy - Dispenser Treat Ball,TPR,7cm,1000,1.05,Shenzhen Petstar Industrial Co.,petstar@szpetstar.cn,China,Shenzhen,10 days,"RoHS, REACH"
+SP014,Rubber Squeaky Toy - Hedgehog Shape,Natural Rubber + Squeaker,14cm,500,1.2,Shenzhen Petstar Industrial Co.,petstar@szpetstar.cn,China,Shenzhen,10 days,"RoHS, REACH"
+SP015,Heavy Duty Rubber Chew Toy - Ring,Natural Rubber,16cm,300,1.75,Ningbo Champion Rubber Tech Ltd.,champion.rubber@nbchampion.cn,China,Ningbo,14 days,"SGS, FDA"
+SP016,Cotton Rope Dog Toy - Tug Knot,Cotton Rope,30cm,500,1.0,Cangnan Greenleaf Textile Ltd.,greenleaf@cntextile.cn,China,Wenzhou,20 days,OEKO-TEX
+SP017,Durable Rope Toy - Three Knot,Cotton Rope,50cm,300,1.85,Cangnan Greenleaf Textile Ltd.,greenleaf@cntextile.cn,China,Wenzhou,20 days,OEKO-TEX
+SP018,Rope Tug Toy for Dogs - Bone Shape,Cotton + Polyester Rope,25cm,500,1.15,Yangzhou Lucky Pet Toy Factory,lucky.pettoy@yzlucky.cn,China,Yangzhou,12 days,ISO 9001
+SP019,Multi-Color Rope Dog Toy - Floss,Cotton Rope,20cm,1000,0.7,Cangnan Greenleaf Textile Ltd.,greenleaf@cntextile.cn,China,Wenzhou,20 days,OEKO-TEX
+SP020,Thick Rope Tug Toy for Large Dogs,Heavy Duty Cotton Rope,60cm,200,2.5,Cangnan Greenleaf Textile Ltd.,greenleaf@cntextile.cn,China,Wenzhou,20 days,OEKO-TEX
+SP021,Catnip Mouse Toy - Plush with Bell,Plush + Catnip + Bell,8cm,1000,0.45,Qingdao Pawsome Pet Supplies Co.,export@pawsomepet.cn,China,Qingdao,10 days,"CE, RoHS"
+SP022,Interactive Cat Feather Wand Toy,Feather + Plastic Stick,80cm,500,0.9,Qingdao Pawsome Pet Supplies Co.,export@pawsomepet.cn,China,Qingdao,10 days,"CE, RoHS"
+SP023,Cat Tunnel Toy - Crinkle Collapsible,Polyester + Crinkle Paper,35x35x80cm,300,3.2,Hangzhou Furwell Home Co.,furwell@hzfurwell.cn,China,Hangzhou,25 days,BSCI
+SP024,Cat Ball Toy with Bell Inside,Plastic + Bell,4cm,2000,0.25,Qingdao Pawsome Pet Supplies Co.,export@pawsomepet.cn,China,Qingdao,10 days,"CE, RoHS"
+SP025,Cat Scratching Board - Cardboard,Corrugated Cardboard,40x25cm,300,2.8,Hangzhou Furwell Home Co.,furwell@hzfurwell.cn,China,Hangzhou,25 days,BSCI
+SP026,Laser Cat Toy - Interactive Pointer,Aluminum + LED,10cm,500,1.95,Shenzhen Petstar Industrial Co.,petstar@szpetstar.cn,China,Shenzhen,10 days,"RoHS, REACH"
+SP027,Pet Dog Collar - Nylon Adjustable,Nylon Webbing + Metal Buckle,2.5cm x 45cm,500,1.3,Wuxi Tack & Gear Manufacturing Ltd.,tackgear@wuxitg.cn,China,Wuxi,15 days,SGS
+SP028,Dog Leash - Nylon Reflective,Nylon + Metal Hook,1.5cm x 120cm,500,1.6,Wuxi Tack & Gear Manufacturing Ltd.,tackgear@wuxitg.cn,China,Wuxi,15 days,SGS
+SP029,Pet Dog Bed - Washable Soft Cushion,Fleece + PP Cotton,50x40cm,200,4.5,Hangzhou Furwell Home Co.,furwell@hzfurwell.cn,China,Hangzhou,25 days,BSCI
+SP030,Dog Bowl - Stainless Steel Non-Slip,Stainless Steel,15cm diameter,500,1.75,Guangzhou HomeWell Kitchenware Ltd.,homewell@gzhomewell.cn,China,Guangzhou,20 days,"FDA, LFGB"
+SP031,Pet Carrier Bag - Portable Travel,Oxford Cloth + Mesh,45x28x28cm,200,5.8,Xiamen CargoPet Bags Co.,cargopet@xmcb.cn,China,Xiamen,22 days,"BSCI, REACH"
+SP032,Dog Poop Bag Dispenser with Leash Clip,ABS Plastic,8x5cm,2000,0.35,Shenzhen Petstar Industrial Co.,petstar@szpetstar.cn,China,Shenzhen,10 days,"RoHS, REACH"
+SP033,Pet Grooming Glove - Silicone Brush,Silicone + Mesh,One Size,500,1.2,Guangzhou HomeWell Kitchenware Ltd.,homewell@gzhomewell.cn,China,Guangzhou,20 days,"FDA, LFGB"
+SP034,Dog Clicker Training Tool,ABS Plastic + Metal,6x4cm,1000,0.3,Shenzhen Petstar Industrial Co.,petstar@szpetstar.cn,China,Shenzhen,10 days,"RoHS, REACH"
+SP035,Pet Water Bottle - Portable Travel,PP Plastic + Silicone,500ml,500,1.85,Guangzhou HomeWell Kitchenware Ltd.,homewell@gzhomewell.cn,China,Guangzhou,20 days,"FDA, LFGB"
+SP036,Dog Cooling Bandana - Summer,Cooling Fabric + PVA,50x5cm,500,1.4,Wuxi Tack & Gear Manufacturing Ltd.,tackgear@wuxitg.cn,China,Wuxi,15 days,SGS
+SP037,Christmas Plush Dog Toy - Santa Claus,Plush + Squeaker,25cm,500,1.7,"Yiwu Mayer Pet Products Co., Ltd.",sales@mayerpet.com,China,Yiwu,15 days,"BSCI, CE"
+SP038,Halloween Dog Costume - Pumpkin,Polyester + Cotton,M/L/XL,300,2.3,Dongguan Harmony Toys Mfg. Ltd.,info@harmonytoys.cn,China,Dongguan,18 days,"ICTI, BSCI"
+SP039,Easter Plush Bunny Dog Toy - Squeaky,Plush + PP Cotton,22cm,500,1.55,Yangzhou Lucky Pet Toy Factory,lucky.pettoy@yzlucky.cn,China,Yangzhou,12 days,ISO 9001
+SP040,Valentine Plush Dog Toy - Heart Shape,Plush + Squeaker,18cm,500,1.45,"Yiwu Mayer Pet Products Co., Ltd.",sales@mayerpet.com,China,Yiwu,15 days,"BSCI, CE"
