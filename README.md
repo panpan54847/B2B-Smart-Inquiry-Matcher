@@ -44,14 +44,28 @@ B2B-Smart-Inquiry-Matcher/
 
 ## 快速开始
 
+> **注意**：以下所有命令都需要在项目根目录 `B2B-Smart-Inquiry-Matcher/` 下运行。
+> 如果你当前在 `C:\Windows\System32` 或系统目录，请先 `cd` 到项目目录，例如：
+> ```powershell
+> cd "C:\Users\48247\WorkBuddy AI\2026-11-14-11-19-41\B2B-Smart-Inquiry-Matcher"
+> ```
+
 ### 1. 环境准备
 
 ```bash
-# 克隆仓库
-git clone https://github.com/YOUR_USERNAME/B2B-Smart-Inquiry-Matcher.git
+# 克隆仓库（替换 panpan54847 为你的 GitHub 用户名，或直接使用以下地址）
+git clone https://github.com/panpan54847/B2B-Smart-Inquiry-Matcher.git
+
+# 进入项目目录
 cd B2B-Smart-Inquiry-Matcher
 
 # 安装依赖
+pip install -r requirements.txt
+```
+
+**Windows PowerShell 用户请注意**：路径中包含空格时，请用英文双引号包裹路径：
+```powershell
+cd "C:\Users\48247\WorkBuddy AI\2026-11-14-11-19-41\B2B-Smart-Inquiry-Matcher"
 pip install -r requirements.txt
 ```
 
@@ -79,7 +93,11 @@ streamlit run app.py
 
 浏览器将自动打开 `http://localhost:8501`。
 
-## 算法说明
+如果浏览器没有自动打开，可以手动访问：
+- http://localhost:8501
+- http://127.0.0.1:8501
+
+---
 
 ### TF-IDF + 余弦相似度
 
