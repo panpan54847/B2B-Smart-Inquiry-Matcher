@@ -335,11 +335,20 @@ with st.sidebar:
     else:
         filtered = suppliers_df
 
+    # 国家筛选
+    if "country" in filtered.columns and filtered["country"].nunique() > 1:
+        all_countries = ["全部"] + sorted(filtered["country"].unique().tolist())
+        selected_country = st.selectbox("🌍 按供应商国家筛选", all_countries)
+        if selected_country != "全部":
+            filtered = filtered[filtered["country"] == selected_country]
+
+    st.caption(f"当前筛选: {len(filtered)} 条产品")
+
     # 产品表格
-    display_cols = ["product_id", "product_name", "supplier_name", "unit_price", "moq"]
+    display_cols = ["product_id", "product_name", "supplier_name", "country", "unit_price", "moq"]
     available_cols = [c for c in display_cols if c in filtered.columns]
     st.dataframe(
-        filtered[available_cols],
+        filtered[available_cols].head(500),
         use_container_width=True,
         hide_index=True,
         height=400,
@@ -378,10 +387,24 @@ with tab_match:
         st.caption("选择一条真实买家询盘快速体验")
 
         if len(inquiries_df) > 0:
-            example_options = inquiries_df["buyer_text"].tolist()
+            # 国家筛选 — 避免下拉框太长
+            inq_countries = ["全部"] + sorted(inquiries_df["country"].unique().tolist())
+            sel_inq_country = st.selectbox("🌍 按买家国家筛选", inq_countries, key="inq_country")
+            if sel_inq_country != "全部":
+                filtered_inq = inquiries_df[inquiries_df["country"] == sel_inq_country]
+            else:
+                filtered_inq = inquiries_df
+
+            # 随机抽样最多 50 条供选择
+            if len(filtered_inq) > 50:
+                sample_inq = filtered_inq.sample(n=50, random_state=42).sort_values("inquiry_id").reset_index(drop=True)
+            else:
+                sample_inq = filtered_inq.reset_index(drop=True)
+
+            example_options = sample_inq["buyer_text"].tolist()
             example_labels = [
-                f"{inquiries_df.iloc[i]['inquiry_id']} · {inquiries_df.iloc[i]['buyer_name']} ({inquiries_df.iloc[i]['country']})"
-                for i in range(len(inquiries_df))
+                f"{sample_inq.iloc[i]['inquiry_id']} · {sample_inq.iloc[i]['buyer_name']} ({sample_inq.iloc[i]['country']})"
+                for i in range(len(sample_inq))
             ]
         else:
             example_options = [
@@ -399,8 +422,8 @@ with tab_match:
         use_example = st.button("📋 填充到输入框", use_container_width=True)
 
         # 展示选中询盘的买家信息
-        if len(inquiries_df) > 0 and selected_idx < len(inquiries_df):
-            sel = inquiries_df.iloc[selected_idx]
+        if len(sample_inq) > 0 and selected_idx is not None and selected_idx < len(sample_inq):
+            sel = sample_inq.iloc[selected_idx]
             st.markdown("---")
             st.markdown(f"""
             <div class="inquiry-card">
@@ -637,8 +660,18 @@ with tab_inquiries:
         filter_country = st.selectbox("🌍 按国家筛选", country_list, key="country_filter")
         filtered_inq = inquiries_df if filter_country == "全部" else inquiries_df[inquiries_df["country"] == filter_country]
 
+        # 分页 — 每页 20 条
+        page_size = 20
+        total_pages = max(1, (len(filtered_inq) + page_size - 1) // page_size)
+        page = st.number_input("📄 页码", min_value=1, max_value=total_pages, value=1, key="inq_page")
+        start_idx = (page - 1) * page_size
+        end_idx = start_idx + page_size
+        page_data = filtered_inq.iloc[start_idx:end_idx]
+
+        st.caption(f"第 {page}/{total_pages} 页 · 显示 {len(page_data)} 条（共 {len(filtered_inq)} 条）")
+
         # 询盘卡片列表
-        for _, row in filtered_inq.iterrows():
+        for _, row in page_data.iterrows():
             # 快速匹配按钮
             col_card, col_action = st.columns([4, 1])
 
@@ -681,12 +714,14 @@ with tab_inquiries:
         # 批量匹配
         st.markdown("---")
         st.markdown("#### 📊 批量匹配总览")
-        if st.button("🚀 一键批量匹配所有询盘", type="primary"):
-            with st.spinner("正在批量匹配..."):
-                batch_results = matcher.match_batch(filtered_inq, top_n=1)
+        batch_limit = st.slider("批量匹配数量上限", min_value=10, max_value=min(200, len(filtered_inq)), value=min(50, len(filtered_inq)), key="batch_limit_slider")
+        if st.button(f"🚀 批量匹配当前筛选下的询盘（最多 {batch_limit} 条）", type="primary"):
+            batch_inq = filtered_inq.head(batch_limit)
+            with st.spinner(f"正在批量匹配 {len(batch_inq)} 条询盘，扫描 {len(matcher.df)} 条产品..."):
+                batch_results = matcher.match_batch(batch_inq, top_n=1)
 
             batch_rows = []
-            for _, inq_row in filtered_inq.iterrows():
+            for _, inq_row in batch_inq.iterrows():
                 inq_id = inq_row["inquiry_id"]
                 res = batch_results.get(inq_id)
                 if res is not None and len(res) > 0:

@@ -1,16 +1,501 @@
 inquiry_id,buyer_text,buyer_name,buyer_email,company,country
-INQ001,"Looking for plush squeaky dog toys, size around 20cm, durable material, MOQ 500 pcs.",Sarah Mitchell,sarah.mitchell@petlandia.co.uk,Petlandia UK Ltd.,United Kingdom
-INQ002,"Need natural rubber dog balls, bouncy and chew resistant, diameter 6-8cm, bulk order 1000 pcs.",Marcus Weber,m.weber@haustierde.de,Haustier & Co. GmbH,Germany
-INQ003,"Searching for cotton rope tug toys for medium dogs, approximately 30-50cm, MOQ 500.",Emily Chen,emily.chen@petprosperity.com.au,Pet Prosperity Pty Ltd.,Australia
-INQ004,"Interested in catnip mouse toys with bell, small size, wholesale 1000+ pcs.",Hiroshi Tanaka,h.tanaka@petlife.jp,PetLife Japan K.K.,Japan
-INQ005,"We need durable rubber chew toys for large breed dogs, heavy duty, MOQ 300 pcs.",James O'Connor,james.oconnor@barkbox.ca,BarkBox Canada Inc.,Canada
-INQ006,"Looking for interactive cat feather wand toys, 80cm length, need 500 pieces.",Sophie Dubois,s.dubois@animallie.fr,AnimalLie SARL,France
-INQ007,"Want to buy plush dog toys in Christmas theme, Santa Claus design, MOQ 500.",Michael Rodriguez,mrodriguez@holidaypetsusa.com,Holiday Pets USA LLC,United States
-INQ008,"Need TPR squeaky dog toys, star shape, around 12cm, order quantity 500 pcs.",Anna Kowalski,a.kowalski@zwierzopol.pl,Zwierzopol Sp. z o.o.,Poland
-INQ009,"Looking for nylon dog collars adjustable, reflective preferred, 500 pcs trial order.",David Kim,d.kim@koreapetlink.kr,"Korea PetLink Co., Ltd.",South Korea
-INQ010,"We want washable pet dog beds, soft cushion, 50x40cm, starting at 200 pcs.",Laura Fernandez,l.fernandez@petconfort.es,PetConfort S.L.,Spain
-INQ011,"Searching for cat scratching boards made of cardboard, 40x25cm, MOQ 300.",Alessandro Rossi,a.rossi@amicicani.it,AmiciCani S.r.l.,Italy
-INQ012,"Need stainless steel dog bowls, non-slip bottom, 15cm, 500 pcs per shipment.",Priya Sharma,priya.sharma@petneeds.in,PetNeeds India Pvt Ltd,India
-INQ013,"Looking for silicone pet grooming gloves, one size, order 500 pairs.",Lucas Oliveira,l.oliveira@petbrasil.com.br,PetBrasil Comercio Ltda,Brazil
-INQ014,"Want portable pet water bottles for travel, 500ml capacity, need 500 units.",Chloe Anderson,c.anderson@petgo.co.nz,PetGo NZ Limited,New Zealand
-INQ015,"Searching for plush squeaky elephant dog toy, 30cm, soft material, MOQ 500 pcs.",Henrik Nilsson,h.nilsson@svenskapet.se,Svenska Pet AB,Sweden
+INQ0001,"Need plush squeaky cat toys, slow feeder, for our South American market, MOQ 100 pcs.",Tiago Fernandes,tiago.fernandes@animal.pt,Pet Solutions Fernandes Lda.,Portugal
+INQ0002,"Want to purchase catnip plush toys, orthopedic, TPR material, MOQ 1500.",Lucie Prochazkova,lucie.prochazkova@petworld.cz,Pet Land Prochazkova a.s.,Czech Republic
+INQ0003,"Interested in dog training clickers, eco-friendly, wholesale 3000+ pcs for European.",Doyoon Park,doyoon.park@naver.com,Pet Mart Park Inc.,South Korea
+INQ0004,"Searching for automatic pet feeders for pets, washable material, 2.5cm x 45cm, starting at 2000 pcs.",Claire Picard,claire.picard@wanadoo.fr,Pet Solutions Picard SAS,France
+INQ0005,"Require rubber bouncy balls for puppies, orthopedic, size around 25cm, initial order 1500 pcs.",Eleni Antoniou,eleni.antoniou@otenet.gr,Happy Pet Antoniou EE,Greece
+INQ0006,"Want to purchase cat scratching boards, machine washable, nylon material, MOQ 1000.",Henrik Nilsson,henrik.nilsson@online.no,Pet Plus Nilsson BA,Norway
+INQ0007,"Interested in wholesale TPR treat dispenser balls, TPR material, size around 20cm, need 1500+ units.",Elena Ruiz,elena.ruiz@hotmail.es,Wagging Ruiz S.A.,Spain
+INQ0008,"Need plush squeaky cat toys for medium dogs, heavy duty, S/M/L, order 5000 pcs.",Wei Tan,wei.tan@petmart.sg,Pawfect Tan Pte Ltd,Singapore
+INQ0009,"Want to buy cat feather wand toys for medium dogs, waterproof, large size, need 500 pieces.",Christian Hansen,christian.hansen@kjaledyr.dk,Pet Solutions Hansen A/S,Denmark
+INQ0010,"Looking for dog poop bag dispensers, eco-friendly, MOQ 5000 pcs.",Mariana Costa,mariana.costa@gmail.com,Pet Direct Costa S.A.,Portugal
+INQ0011,"Need plush squeaky cat toys, orthopedic, for our South American market, MOQ 300 pcs.",Chloe Anderson,chloe.anderson@gmail.com,Pet Go Anderson Ltd.,New Zealand
+INQ0012,"Need dog harnesses for dogs, adjustable, size around 20cm, order 2000 pcs.",Niran Phakdee,niran.phakdee@hotmail.co.th,Pet Pro Phakdee Ltd.,Thailand
+INQ0013,"Need automatic pet feeders, reflective, for our African market, MOQ 200 pcs.",Diego Quispe,diego.quispe@gmail.com,Animal Quispe S.R.L.,Peru
+INQ0014,"Need cotton rope tug toys for medium dogs, machine washable, 40x25cm, order 500 pcs.",Daan Jansen,daan.jansen@kpn.nl,Pet Pro Jansen N.V.,Netherlands
+INQ0015,"Looking for laser cat toys in Valentine theme, double layer, MOQ 300.",Deepika Nair,deepika.nair@gmail.com,Furry Nair Pvt Ltd,India
+INQ0016,"Require reflective dog collars for small dogs, waterproof, approx 12cm, initial order 1000 pcs.",Benjamin Rojas,benjamin.rojas@petmundo.cl,Pet Plus Rojas Ltda.,Chile
+INQ0017,"Want to buy dog training clickers for pets, non-slip, approx 12cm, need 1000 pieces.",Fatma Mahmoud,fatma.mahmoud@petworld.eg,Pet Mart Mahmoud LLC,Egypt
+INQ0018,"Require interactive cat toys for pets, breathable, One Size, initial order 200 pcs.",Eszter Kovacs,eszter.kovacs@freemail.hu,Pet Go Kovacs Zrt.,Hungary
+INQ0019,"We want to source reflective dog collars, squeaky, 80cm length, starting with 2000 pcs trial order.",Xin Chua,xin.chua@singnet.com.sg,Pet Land Chua Pte. Ltd.,Singapore
+INQ0020,"Interested in wholesale dog poop bag dispensers, food grade material, 40x25cm, need 1000+ units.",Priya Sharma,priya.sharma@petneeds.in,Animal Care Sharma Ltd.,India
+INQ0021,"Interested in wholesale Easter bunny pet toys, natural rubber, size around 20cm, need 5000+ units.",Chai Suwannapong,chai.suwannapong@petshop.co.th,Pet Zone Suwannapong Ltd.,Thailand
+INQ0022,"We need Christmas plush dog toys, double layer, small size, bulk order 300 pcs.",Noura AlQahtani,noura.alqahtani@hotmail.com,Wagging AlQahtani Ltd.,Saudi Arabia
+INQ0023,"Need Christmas plush dog toys for pets, squeaky, 40x25cm, order 2000 pcs.",Piotr Nowak,piotr.nowak@petstore.pl,Purrfect Nowak S.A.,Poland
+INQ0024,"Looking to source pet first aid kits, foldable, approximately One Size, order quantity 3000 pcs.",Sarah Botha,sarah.botha@gmail.com,Pet Zone Botha Ltd.,South Africa
+INQ0025,"Looking to source rubber chew toys, washable, approximately approx 12cm, order quantity 3000 pcs.",Anna Szabo,anna.szabo@gmail.com,Animal Szabo Zrt.,Hungary
+INQ0026,"Want to buy orthopedic dog beds for large dogs, durable, S/M/L, need 200 pieces.",Wei Tan,wei.tan@hotmail.com,Best Pet Tan Sdn Bhd,Malaysia
+INQ0027,"Need dog training clickers for kittens, washable, size around 20cm, order 5000 pcs.",Liam Berg,liam.berg@svenskapet.se,Furry Berg AB,Sweden
+INQ0028,"Looking for heavy duty rubber chew toys in Christmas theme, squeaky, MOQ 5000.",Gabor Nagy,gabor.nagy@petworld.hu,Tails Nagy Kft.,Hungary
+INQ0029,"Looking for dog cooling bandanas in Summer theme, lightweight, MOQ 100.",Marte Larsen,marte.larsen@dyrevenn.no,Pawfect Larsen AS,Norway
+INQ0030,"Require Easter bunny pet toys for dogs, reflective, 6-8cm diameter, initial order 3000 pcs.",Oskar Karlsson,oskar.karlsson@telia.com,Purrfect Karlsson KB,Sweden
+INQ0031,"Looking for Halloween dog costumes, durable, MOQ 200 pcs.",Helena Costa,helena.costa@uol.com.br,Pet Direct Costa Ltda,Brazil
+INQ0032,"We want to source dog leashes, portable, 45x28x28cm, starting with 1000 pcs trial order.",Aino Virtanen,aino.virtanen@luukku.com,Pet Club Virtanen Oy,Finland
+INQ0033,"Need dog harnesses, machine washable, for our North American market, MOQ 200 pcs.",Ingrid Hansen,ingrid.hansen@petworld.no,Pet Hansen AS,Norway
+INQ0034,"Looking for ceramic pet bowls, portable, for Christmas season, order 100 pcs.",Sofia Rodriguez,sofia.rodriguez@gmail.com,Pet Land Rodriguez S.A.,Argentina
+INQ0035,"Need pet first aid kits for our retail chain in European, breathable, 80cm length, MOQ 500.",Siti Ismail,siti.ismail@hotmail.com,Paws Ismail Sdn. Bhd.,Malaysia
+INQ0036,"Looking for TPR squeaky toys in Halloween theme, machine washable, MOQ 1000.",Klara Svobodova,klara.svobodova@seznam.cz,Animal Svobodova a.s.,Czech Republic
+INQ0037,"Interested in wholesale cotton rope tug toys, cotton rope, 50x40cm, need 2000+ units.",Lucas Mulder,lucas.mulder@petworld.nl,Best Pet Mulder N.V.,Netherlands
+INQ0038,"Want to purchase heavy duty rubber chew toys, lightweight, plush material, MOQ 2000.",Henrik Nilsson,henrik.nilsson@petworld.no,Tails Nilsson BA,Norway
+INQ0039,"Want to purchase stainless steel non-slip bowls, lightweight, durable material, MOQ 100.",Rohit Verma,rohit.verma@petmarket.in,Animal Verma Pvt Ltd,India
+INQ0040,"Looking to source orthopedic dog beds, squeaky, approximately size around 20cm, order quantity 200 pcs.",Tamar Friedman,tamar.friedman@gmail.com,Best Pet Friedman Ltd.,Israel
+INQ0041,"We need cat tunnel toys, heavy duty, 2.5cm x 45cm, bulk order 1500 pcs.",Elsa Eriksson,elsa.eriksson@telia.com,Pet Eriksson KB,Sweden
+INQ0042,"Require stainless steel dog bowls, cotton rope, interactive, MOQ 100 pcs per shipment.",Marte Larsen,marte.larsen@gmail.com,Pet Plus Larsen BA,Norway
+INQ0043,"Looking to source portable pet water bottles, interactive, approximately 2.5cm x 45cm, order quantity 300 pcs.",Conor Byrne,conor.byrne@petstore.ie,Pet Mart Byrne Teo,Ireland
+INQ0044,"Need collapsible pet travel bowls for our retail chain in North American, durable, One Size, MOQ 100.",Diego Quispe,diego.quispe@petmundo.pe,Purrfect Quispe S.R.L.,Peru
+INQ0045,"Require interactive cat toys, silicone material, bouncy, MOQ 1500 pcs per shipment.",Conor Byrne,conor.byrne@eircom.net,Pet World Byrne Teo,Ireland
+INQ0046,"We are looking for Halloween dog costumes with collapsible, 50x40cm, starting at 3000 pcs.",Pierre Dubois,pierre.dubois@petmag.fr,Pet Direct Dubois SA,France
+INQ0047,"Need cat feather wand toys for medium dogs, non-slip, One Size, order 300 pcs.",Mai Sato,mai.sato@gmail.com,Pet Zone Sato Ltd.,Japan
+INQ0048,"Interested in wholesale cat tunnel toys, nylon material, 45x28x28cm, need 3000+ units.",Camila Moreno,camila.moreno@gmail.com,Pet Plus Moreno Ltda.,Colombia
+INQ0049,"Looking for cotton rope floss toys, squeaky, MOQ 1500 pcs.",Ahmad Rahman,ahmad.rahman@petshop.my,Pet World Rahman Sdn Bhd,Malaysia
+INQ0050,"Looking for pet first aid kits, reflective, for Summer season, order 3000 pcs.",Anna Huber,anna.huber@chello.at,Purrfect Huber GmbH,Austria
+INQ0051,"Need stainless steel dog bowls, lightweight, for our European market, MOQ 1500 pcs.",Lukas Muller,lukas.muller@petworld.ch,Pet Solutions Muller GmbH,Switzerland
+INQ0052,"Interested in wholesale pet carrier bags, eco-friendly material, small size, need 1500+ units.",Markus Bauer,markus.bauer@gmail.com,Pet Express Bauer OG,Austria
+INQ0053,"Interested in catnip plush toys, foldable, wholesale 5000+ pcs for Australian.",Tomas Novak,tomas.novak@seznam.cz,Best Pet Novak s.r.o.,Czech Republic
+INQ0054,"Searching for feather cat wands, TPR material, squeaky, 2.5cm x 45cm, order 100 pcs.",Minjun Kim,minjun.kim@naver.com,Best Pet Kim Co. Ltd.,South Korea
+INQ0055,"Interested in wholesale rubber bouncy balls, durable material, medium size, need 1500+ units.",Sophie Moreau,sophie.moreau@orange.fr,Tails Moreau SA,France
+INQ0056,"Searching for orthopedic dog beds, eco-friendly material, washable, approx 12cm, order 300 pcs.",Thabo Naidoo,thabo.naidoo@gmail.com,Pet Zone Naidoo Inc.,South Africa
+INQ0057,"Looking for reflective dog collars, reflective, for Halloween season, order 1500 pcs.",Eleni Antoniou,eleni.antoniou@petworld.gr,Best Pet Antoniou AE,Greece
+INQ0058,"Searching for portable pet water bottles, washable material, breathable, 80cm length, order 5000 pcs.",Jiwoo Choi,jiwoo.choi@koreapetlink.kr,Pet Pro Choi Co. Ltd.,South Korea
+INQ0059,"Want to purchase portable pet water bottles, collapsible, nylon material, MOQ 3000.",Emma Henry,emma.henry@wanadoo.fr,Paws Henry SA,France
+INQ0060,"We need collapsible pet travel bowls, breathable, 80cm length, bulk order 3000 pcs.",Maya Levi,maya.levi@gmail.com,Pet Go Levi Inc.,Israel
+INQ0061,"Need Christmas plush dog toys, machine washable, for our North American market, MOQ 3000 pcs.",Joaquin Vargas,joaquin.vargas@hotmail.com,Pet Direct Vargas S.A.C.,Peru
+INQ0062,"Need cotton rope floss toys for small dogs, foldable, 15cm diameter, order 200 pcs.",Alejandro Garcia,alejandro.garcia@gmail.com,Pet Club Garcia S.L.,Spain
+INQ0063,"Searching for dog seat covers, stainless steel, reflective, 40x25cm, order 500 pcs.",Hana Lim,hana.lim@gmail.com,Pet Express Lim Inc.,South Korea
+INQ0064,"Need heavy duty rubber chew toys for pets, foldable, medium size, order 5000 pcs.",Arjun Mehta,arjun.mehta@petmarket.in,Pet Direct Mehta Pvt Ltd,India
+INQ0065,"Want to buy catnip mouse toys for pets, washable, 15cm diameter, need 5000 pieces.",Ananya Reddy,ananya.reddy@petneeds.in,Furry Reddy Ltd.,India
+INQ0066,"Interested in wholesale pet first aid kits, TPR material, 40x25cm, need 1500+ units.",Mateo Gonzalez,mateo.gonzalez@gmail.com,Furry Gonzalez S.A.,Argentina
+INQ0067,"Looking to source plush squeaky dog toys, adjustable, approximately 2.5cm x 45cm, order quantity 1000 pcs.",Mia Lee,mia.lee@petcircle.com.au,Pet Mart Lee Pty. Ltd.,Australia
+INQ0068,"Looking for dog seat covers, squeaky, for Summer season, order 500 pcs.",Tom Maes,tom.maes@petworld.be,Purrfect Maes NV/SA,Belgium
+INQ0069,"Looking for collapsible pet travel bowls in Christmas theme, squeaky, MOQ 1500.",Kasia Wojcik,kasia.wojcik@zwierzopol.pl,Happy Pet Wojcik S.A.,Poland
+INQ0070,"Looking for dog leashes suitable for kittens, slow feeder, approximate size around 15cm, MOQ 500 pcs.",Niran Phakdee,niran.phakdee@petshop.co.th,Furry Phakdee Co. Ltd.,Thailand
+INQ0071,"Require silicone grooming gloves, nylon material, eco-friendly, MOQ 5000 pcs per shipment.",Jan Dvorak,jan.dvorak@petshop.cz,Furry Dvorak a.s.,Czech Republic
+INQ0072,"Looking for Halloween dog costumes, eco-friendly, MOQ 1000 pcs.",Charles Lee,charles.lee@petsmart.com,Animal Care Lee Corp.,United States
+INQ0073,"Looking for portable pet water bottles, eco-friendly, for Easter season, order 500 pcs.",Jean Laurent,jean.laurent@gmail.com,Pet Land Laurent SARL,France
+INQ0074,"We want to source laser cat toys, machine washable, approx 18cm, starting with 200 pcs trial order.",Minjun Kim,minjun.kim@gmail.com,Pet Mart Kim Co. Ltd.,South Korea
+INQ0075,"We want to source catnip plush toys, squeaky, size around 25cm, starting with 1500 pcs trial order.",Emma Nieminen,emma.nieminen@lemmikki.fi,Happy Pet Nieminen Oyj,Finland
+INQ0076,"Searching for Easter bunny pet toys, nylon material, 6-8cm diameter, MOQ 300.",Nina Weber,nina.weber@haustier.ch,Pet Pro Weber AG,Switzerland
+INQ0077,"Interested in wholesale dog harnesses, non-toxic material, size around 30cm, need 500+ units.",Sofia deVries,sofia.devries@kpn.nl,Animal Care deVries N.V.,Netherlands
+INQ0078,"Looking for dog leashes in Christmas theme, foldable, MOQ 1500.",Mia Lee,mia.lee@bigpond.com,Wagging Lee Pty. Ltd.,Australia
+INQ0079,"We want to source rubber chew toys, durable, 45x28x28cm, starting with 1500 pcs trial order.",Lea Guerin,lea.guerin@gmail.com,Pet World Guerin SAS,France
+INQ0080,"Want to buy plush squeaky dog toys for pets, non-slip, 6-8cm diameter, need 200 pieces.",Ingrid Hansen,ingrid.hansen@gmail.com,Pet Zone Hansen AS,Norway
+INQ0081,"Require cat scratching boards for large dogs, squeaky, medium size, initial order 1500 pcs.",David Wilson,david.wilson@gmail.com,Pet Club Wilson Ltd.,Canada
+INQ0082,"Need stainless steel non-slip bowls, bouncy, for our Asian market, MOQ 1500 pcs.",Jakub Lewandowski,jakub.lewandowski@wp.pl,Best Pet Lewandowski S.A.,Poland
+INQ0083,"Need stainless steel non-slip bowls, orthopedic, for our North American market, MOQ 100 pcs.",Jan Mertens,jan.mertens@gmail.com,Pet Plus Mertens BVBA,Belgium
+INQ0084,"Looking for TPR squeaky toys, reflective, MOQ 2000 pcs.",Mateo Gonzalez,mateo.gonzalez@petmundo.ar,Paws Gonzalez S.R.L.,Argentina
+INQ0085,"Looking for cat feather wand toys, non-slip, MOQ 3000 pcs.",Chloe Anderson,chloe.anderson@petworld.nz,Animal Care Anderson Ltd.,New Zealand
+INQ0086,"Need rubber chew toys for our retail chain in North American, double layer, size around 30cm, MOQ 300.",Valentina Lopez,valentina.lopez@petshop.ar,Pet Solutions Lopez S.R.L.,Argentina
+INQ0087,"We need cotton rope floss toys, eco-friendly, size around 25cm, bulk order 500 pcs.",Peter Toth,peter.toth@gmail.com,Best Pet Toth Zrt.,Hungary
+INQ0088,"Need cat tunnel toys for puppies, lightweight, size around 30cm, order 200 pcs.",Noam Cohen,noam.cohen@gmail.com,Paws Cohen Ltd.,Israel
+INQ0089,"Looking for stainless steel non-slip bowls, washable, MOQ 1000 pcs.",Vikram Singh,vikram.singh@rediffmail.com,Pet Direct Singh Ltd.,India
+INQ0090,"Interested in heavy duty rubber chew toys, adjustable, wholesale 500+ pcs for Middle Eastern.",Andrei Popescu,andrei.popescu@yahoo.com,Furry Popescu S.R.L.,Romania
+INQ0091,"Interested in dog harnesses, reflective, wholesale 5000+ pcs for South American.",Lucie Prochazkova,lucie.prochazkova@petshop.cz,Pet Prochazkova a.s.,Czech Republic
+INQ0092,"Looking for nylon dog collars, squeaky, for Summer season, order 1500 pcs.",Niamh Ryan,niamh.ryan@petworld.ie,Animal Ryan Teo,Ireland
+INQ0093,"Need TPR treat dispenser balls for small dogs, squeaky, size around 10cm, order 3000 pcs.",Pierre Dubois,pierre.dubois@orange.fr,Happy Pet Dubois SAS,France
+INQ0094,"Need dog training clickers, squeaky, for our Australian market, MOQ 5000 pcs.",Valentina Rodrigues,valentina.rodrigues@petbrasil.com.br,Furry Rodrigues S.A.,Brazil
+INQ0095,"Looking to source cotton rope floss toys, non-slip, approximately 50x40cm, order quantity 200 pcs.",Emma VanderMerwe,emma.vandermerwe@telkomsa.net,Pet Express VanderMerwe Inc.,South Africa
+INQ0096,"Want to buy feather cat wands for cats, adjustable, S/M/L, need 500 pieces.",Matias Gonzalez,matias.gonzalez@petshop.cl,Animal Gonzalez S.A.,Chile
+INQ0097,"Searching for pet first aid kits, non-toxic material, non-slip, size around 20cm, order 500 pcs.",Niran Phakdee,niran.phakdee@gmail.com,Companion Phakdee Ltd.,Thailand
+INQ0098,"Looking for stainless steel non-slip bowls, double layer, MOQ 1000 pcs.",Diego Quispe,diego.quispe@petshop.pe,Pet Go Quispe S.R.L.,Peru
+INQ0099,"Require nylon dog collars for puppies, squeaky, 50x40cm, initial order 100 pcs.",Ebba Lindberg,ebba.lindberg@petworld.se,Pet Pro Lindberg KB,Sweden
+INQ0100,"Need dog leashes, non-slip, for our European market, MOQ 1500 pcs.",Amanda Brooks,amanda.brooks@barkbox.ca,Pet Direct Brooks Ltd.,Canada
+INQ0101,"Need dog training clickers, interactive, for our European market, MOQ 500 pcs.",Erik Nilsson,erik.nilsson@svenskapet.se,Pet Club Nilsson AB,Sweden
+INQ0102,"We are looking for plush dinosaur dog toys with adjustable, approx 18cm, starting at 2000 pcs.",Grace Cooper,grace.cooper@petplanet.co.uk,Pet Land Cooper LLP,United Kingdom
+INQ0103,"Looking for slow feeder bowls in New Year theme, washable, MOQ 1000.",Henrik Nilsson,henrik.nilsson@dyrevenn.no,Companion Nilsson BA,Norway
+INQ0104,"Want to buy pet water bottles for cats, double layer, size around 25cm, need 5000 pieces.",Valentina Lopez,valentina.lopez@gmail.com,Purrfect Lopez S.A.,Argentina
+INQ0105,"Looking to source nylon dog collars, interactive, approximately size around 20cm, order quantity 3000 pcs.",Isabella Munoz,isabella.munoz@petmundo.cl,Pet Land Munoz S.A.,Chile
+INQ0106,"Searching for retractable dog leashes for kittens, natural rubber, 50x40cm, starting at 100 pcs.",Deepika Nair,deepika.nair@rediffmail.com,Companion Nair Pvt Ltd,India
+INQ0107,"Looking for natural rubber dog balls, adjustable, MOQ 5000 pcs.",Lea Guerin,lea.guerin@wanadoo.fr,Pet Express Guerin SA,France
+INQ0108,"Need cotton rope tug toys for large dogs, washable, size around 20cm, order 300 pcs.",Andreas Keller,andreas.keller@haustier.ch,Purrfect Keller AG,Switzerland
+INQ0109,"We want to source cat scratching boards, waterproof, size around 20cm, starting with 5000 pcs trial order.",David Brown,david.brown@petplanet.co.uk,Animal Brown PLC,United Kingdom
+INQ0110,"Searching for retractable dog leashes, soft material, eco-friendly, small size, order 100 pcs.",Valeria Flores,valeria.flores@hotmail.com,Companion Flores S.R.L.,Peru
+INQ0111,"Looking for cat scratching boards, reflective, for Christmas season, order 1000 pcs.",William Walker,william.walker@outlook.com,Pawfect Walker LLP,United Kingdom
+INQ0112,"Searching for Halloween dog costumes for cats, durable material, size around 20cm, starting at 1000 pcs.",Tiago Fernandes,tiago.fernandes@gmail.com,Animal Fernandes Lda.,Portugal
+INQ0113,"Interested in plush dinosaur dog toys, washable, wholesale 1500+ pcs for African.",Peter Toth,peter.toth@freemail.hu,Animal Toth Zrt.,Hungary
+INQ0114,"We want to source retractable dog leashes, double layer, 2.5cm x 45cm, starting with 3000 pcs trial order.",Sofia Silva,sofia.silva@petlove.com.br,Pet Pro Silva Ltda,Brazil
+INQ0115,"We want to source ceramic pet bowls, breathable, size around 20cm, starting with 500 pcs trial order.",Elena Ionescu,elena.ionescu@petworld.ro,Companion Ionescu S.R.L.,Romania
+INQ0116,"We want to source ceramic pet bowls, adjustable, size around 15cm, starting with 1500 pcs trial order.",Ana Torres,ana.torres@yahoo.com,Animal Torres Corp.,Philippines
+INQ0117,"Need automatic pet feeders for our retail chain in South American, bouncy, small size, MOQ 2000.",Mariana Rios,mariana.rios@hotmail.com,Pet Zone Rios S.A.C.,Peru
+INQ0118,"Need catnip plush toys for our retail chain in European, lightweight, 50x40cm, MOQ 2000.",Tomas Fernandez,tomas.fernandez@hotmail.com,Pet Express Fernandez S.A.,Argentina
+INQ0119,"Want to purchase TPR squeaky toys, eco-friendly, TPR material, MOQ 100.",Jia Ong,jia.ong@singnet.com.sg,Pet World Ong Pte Ltd,Singapore
+INQ0120,"Need plush dinosaur dog toys, portable, for our Asian market, MOQ 500 pcs.",Itai Mizrahi,itai.mizrahi@walla.co.il,Animal Mizrahi Inc.,Israel
+INQ0121,"Require orthopedic dog beds for small dogs, breathable, medium size, initial order 5000 pcs.",Martin Lehmann,martin.lehmann@petworld.de,Purrfect Lehmann AG,Germany
+INQ0122,"Looking for dog leashes, bouncy, MOQ 200 pcs.",Hiroshi Tanaka,hiroshi.tanaka@gmail.com,Pet Plus Tanaka Co. Ltd.,Japan
+INQ0123,"Need rubber bouncy balls, orthopedic, for our European market, MOQ 100 pcs.",Charlotte Brown,charlotte.brown@gmail.com,Purrfect Brown Limited,New Zealand
+INQ0124,"Searching for cat tunnel toys, TPR material, 15cm diameter, MOQ 300.",Andreas Keller,andreas.keller@petworld.ch,Best Pet Keller GmbH,Switzerland
+INQ0125,"Searching for automatic pet feeders, natural rubber, waterproof, small size, order 200 pcs.",Nina Weber,nina.weber@gmail.com,Purrfect Weber GmbH,Switzerland
+INQ0126,"Looking to source orthopedic dog beds, durable, approximately 80cm length, order quantity 1000 pcs.",Gabor Nagy,gabor.nagy@freemail.hu,Pet World Nagy Kft.,Hungary
+INQ0127,"We want to source plush dog toys, breathable, 45x28x28cm, starting with 5000 pcs trial order.",Jakub Lewandowski,jakub.lewandowski@gmail.com,Pet Zone Lewandowski Sp. z o.o.,Poland
+INQ0128,"Searching for cat tunnel toys for dogs, non-toxic material, size around 25cm, starting at 500 pcs.",Noura AlQahtani,noura.alqahtani@petworld.sa,Pet Plus AlQahtani Ltd.,Saudi Arabia
+INQ0129,"We need rope tug toys for dogs, foldable, S/M/L, bulk order 5000 pcs.",Chloe Anderson,chloe.anderson@xtra.co.nz,Pet World Anderson Ltd.,New Zealand
+INQ0130,"Looking for dog leashes in Holiday theme, adjustable, MOQ 500.",Mikko Korhonen,mikko.korhonen@petworld.fi,Animal Korhonen Oy,Finland
+INQ0131,"Require Christmas plush dog toys, natural rubber, washable, MOQ 300 pcs per shipment.",Mihai Stan,mihai.stan@gmail.com,Purrfect Stan S.A.,Romania
+INQ0132,"We are looking for pet first aid kits with bouncy, size around 30cm, starting at 2000 pcs.",Erik Olsen,erik.olsen@gmail.com,Pawfect Olsen AS,Norway
+INQ0133,"Need nylon dog collars, non-slip, for our North American market, MOQ 1000 pcs.",Rohit Verma,rohit.verma@rediffmail.com,Animal Verma Pvt Ltd,India
+INQ0134,"Interested in heavy duty rubber chew toys, waterproof, wholesale 2000+ pcs for South American.",Klara Svobodova,klara.svobodova@petworld.cz,Happy Pet Svobodova a.s.,Czech Republic
+INQ0135,"Searching for laser cat toys, stainless steel, One Size, MOQ 500.",Pedro Reyes,pedro.reyes@petworld.ph,Tails Reyes Corp.,Philippines
+INQ0136,"Looking for TPR treat dispenser balls suitable for large dogs, durable, approximate large size, MOQ 1000 pcs.",Fatma Mahmoud,fatma.mahmoud@petshop.eg,Pet Mart Mahmoud LLC,Egypt
+INQ0137,"Require rubber bouncy balls, eco-friendly material, lightweight, MOQ 5000 pcs per shipment.",Niran Phakdee,niran.phakdee@petworld.co.th,Pet Mart Phakdee Co. Ltd.,Thailand
+INQ0138,"We want to source TPR squeaky toys, eco-friendly, 45x28x28cm, starting with 500 pcs trial order.",Sipho Mthembu,sipho.mthembu@gmail.com,Pet Go Mthembu Inc.,South Africa
+INQ0139,"Looking for slow feeder bowls, orthopedic, for Holiday season, order 1000 pcs.",Valentina Rodrigues,valentina.rodrigues@uol.com.br,Pet Zone Rodrigues Comercio Ltda,Brazil
+INQ0140,"Require dog training clickers for kittens, durable, size around 15cm, initial order 100 pcs.",Omar AlNahyan,omar.alnahyan@etisalat.ae,Animal AlNahyan FZE,United Arab Emirates
+INQ0141,"Need TPR treat dispenser balls, reflective, for our South American market, MOQ 500 pcs.",Markus Bauer,markus.bauer@petworld.at,Tails Bauer OG,Austria
+INQ0142,"Interested in cat feather wand toys, bouncy, wholesale 3000+ pcs for African.",Mariana Rios,mariana.rios@gmail.com,Pet Express Rios S.A.C.,Peru
+INQ0143,"Need TPR squeaky toys for small dogs, waterproof, size around 15cm, order 500 pcs.",Mohammed AlMaktoum,mohammed.almaktoum@etisalat.ae,Pet Club AlMaktoum FZE,United Arab Emirates
+INQ0144,"Interested in wholesale nylon dog collars, washable material, size around 25cm, need 3000+ units.",Gabor Nagy,gabor.nagy@petshop.hu,Pet Express Nagy Kft.,Hungary
+INQ0145,"Need feather cat wands for large dogs, adjustable, 2.5cm x 45cm, order 500 pcs.",Sean Murphy,sean.murphy@eircom.net,Tails Murphy Teo,Ireland
+INQ0146,"Searching for Easter bunny pet toys, heavy duty material, collapsible, One Size, order 1000 pcs.",Nikos Papadopoulos,nikos.papadopoulos@petshop.gr,Pet Express Papadopoulos EE,Greece
+INQ0147,"Want to purchase stainless steel non-slip bowls, interactive, cotton rope, MOQ 300.",Mai Sato,mai.sato@petlife.jp,Wagging Sato Co. Ltd.,Japan
+INQ0148,"Interested in wholesale rubber bouncy balls, nylon material, small size, need 200+ units.",Jessica Evans,jessica.evans@outlook.com,Pet Club Evans PLC,United Kingdom
+INQ0149,"Looking to source rubber bouncy balls, portable, approximately size around 25cm, order quantity 300 pcs.",William Walker,william.walker@gmail.com,Pet Zone Walker Co.,United Kingdom
+INQ0150,"Interested in laser cat toys, machine washable, wholesale 3000+ pcs for South American.",Minjun Kim,minjun.kim@koreapetlink.kr,Pet Kim Co. Ltd.,South Korea
+INQ0151,"Want to purchase Easter bunny pet toys, orthopedic, heavy duty material, MOQ 1000.",Ploy Charoen,ploy.charoen@hotmail.co.th,Pet Mart Charoen Co. Ltd.,Thailand
+INQ0152,"Want to purchase silicone grooming gloves, washable, eco-friendly material, MOQ 500.",Sofie Willems,sofie.willems@dierenvoor.be,Happy Pet Willems BVBA,Belgium
+INQ0153,"Interested in Christmas plush dog toys, bouncy, wholesale 300+ pcs for Asian.",Charlotte Wilson,charlotte.wilson@gmail.com,Animal Wilson Pty Ltd,Australia
+INQ0154,"Looking to source pet water bottles, orthopedic, approximately size around 20cm, order quantity 1500 pcs.",Andres Lopez,andres.lopez@petshop.co,Pet Express Lopez Ltda.,Colombia
+INQ0155,"Searching for automatic pet feeders, eco-friendly material, reflective, size around 20cm, order 3000 pcs.",Emily Green,emily.green@outlook.com,Pet Green Group,United Kingdom
+INQ0156,"Want to purchase reflective dog collars, adjustable, plush material, MOQ 3000.",Emma Henry,emma.henry@petmag.fr,Happy Pet Henry SARL,France
+INQ0157,"Looking for stainless steel dog bowls, non-slip, for Easter season, order 3000 pcs.",Joao Silva,joao.silva@gmail.com,Pet Club Silva Lda.,Portugal
+INQ0158,"Looking for retractable dog leashes in Valentine theme, lightweight, MOQ 100.",Jin Song,jin.song@koreapetlink.kr,Pet Solutions Song Co. Ltd.,South Korea
+INQ0159,"Want to purchase TPR treat dispenser balls, breathable, cotton rope, MOQ 300.",Sarah Clarke,sarah.clarke@petmac.ca,Pet Solutions Clarke Inc.,Canada
+INQ0160,"Looking to source plush squeaky dog toys, non-slip, approximately 15cm diameter, order quantity 500 pcs.",Nikos Papadopoulos,nikos.papadopoulos@petworld.gr,Companion Papadopoulos EE,Greece
+INQ0161,"Looking for pet first aid kits, lightweight, MOQ 200 pcs.",Francisca Diaz,francisca.diaz@petmundo.cl,Animal Care Diaz S.A.,Chile
+INQ0162,"Interested in wholesale Easter bunny pet toys, non-toxic material, 80cm length, need 2000+ units.",William Taylor,william.taylor@petworld.nz,Furry Taylor Ltd.,New Zealand
+INQ0163,"Searching for cotton rope floss toys for large dogs, TPR material, size around 15cm, starting at 500 pcs.",Valentina Lopez,valentina.lopez@petmundo.ar,Paws Lopez S.A.,Argentina
+INQ0164,"Looking for Christmas plush dog toys, collapsible, for Holiday season, order 500 pcs.",Michael Hoffmann,michael.hoffmann@haustier.de,Tails Hoffmann GmbH,Germany
+INQ0165,"Need plush dinosaur dog toys for our retail chain in Australian, double layer, approx 18cm, MOQ 5000.",Lisa Steiner,lisa.steiner@haustier.at,Animal Steiner OG,Austria
+INQ0166,"Interested in wholesale feather cat wands, non-toxic material, 45x28x28cm, need 300+ units.",Jan Dvorak,jan.dvorak@gmail.com,Companion Dvorak s.r.o.,Czech Republic
+INQ0167,"Need dog harnesses for our retail chain in European, lightweight, 40x25cm, MOQ 3000.",Valentina Lopez,valentina.lopez@hotmail.com,Pawfect Lopez S.R.L.,Argentina
+INQ0168,"Searching for cotton rope tug toys for puppies, cotton rope, 2.5cm x 45cm, starting at 2000 pcs.",Tomas Novak,tomas.novak@petworld.cz,Pet Plus Novak s.r.o.,Czech Republic
+INQ0169,"Need dog cooling bandanas for pets, non-slip, small size, order 1500 pcs.",Emma Nieminen,emma.nieminen@luukku.com,Best Pet Nieminen Oy,Finland
+INQ0170,"Interested in interactive cat toys, bouncy, wholesale 1500+ pcs for South American.",Emma Nieminen,emma.nieminen@petworld.fi,Furry Nieminen Oy,Finland
+INQ0171,"Searching for pet carrier bags for dogs, nylon material, approx 12cm, starting at 100 pcs.",Chai Suwannapong,chai.suwannapong@petworld.co.th,Pet World Suwannapong Co. Ltd.,Thailand
+INQ0172,"Require natural rubber dog balls, natural rubber, reflective, MOQ 500 pcs per shipment.",Marte Larsen,marte.larsen@online.no,Best Pet Larsen AS,Norway
+INQ0173,"Need dog leashes for our retail chain in South American, machine washable, 45x28x28cm, MOQ 3000.",Alice Lima,alice.lima@petbrasil.com.br,Best Pet Lima Comercio Ltda,Brazil
+INQ0174,"We need Christmas plush dog toys, interactive, 15cm diameter, bulk order 500 pcs.",Laura Klein,laura.klein@gmail.com,Pet Klein GmbH & Co. KG,Germany
+INQ0175,"Looking for dog poop bag dispensers, heavy duty, for Holiday season, order 5000 pcs.",Anna Schmidt,anna.schmidt@gmx.de,Pet Express Schmidt GmbH,Germany
+INQ0176,"Searching for plush squeaky dog toys for kittens, stainless steel, 15cm diameter, starting at 5000 pcs.",Charlotte Wilson,charlotte.wilson@petcircle.com.au,Purrfect Wilson Pty. Ltd.,Australia
+INQ0177,"We want to source TPR treat dispenser balls, adjustable, size around 20cm, starting with 200 pcs trial order.",Lukas Muller,lukas.muller@haustier.ch,Furry Muller GmbH,Switzerland
+INQ0178,"Searching for catnip plush toys, cotton rope, size around 30cm, MOQ 500.",Jakub Lewandowski,jakub.lewandowski@zwierzopol.pl,Wagging Lewandowski Sp. z o.o.,Poland
+INQ0179,"Require nylon dog collars, washable material, bouncy, MOQ 1000 pcs per shipment.",Abdullah AlSaud,abdullah.alsaud@gmail.com,Pet Plus AlSaud Ltd.,Saudi Arabia
+INQ0180,"We need cat feather wand toys, breathable, approx 12cm, bulk order 100 pcs.",Mariana Costa,mariana.costa@petworld.pt,Companion Costa S.A.,Portugal
+INQ0181,"Looking for rubber bouncy balls, breathable, for Holiday season, order 3000 pcs.",Stefan Schmid,stefan.schmid@petworld.ch,Pawfect Schmid GmbH,Switzerland
+INQ0182,"Need nylon dog collars, bouncy, for our Australian market, MOQ 1500 pcs.",Aisha AlHashimi,aisha.alhashimi@petdubai.ae,Animal AlHashimi FZ-LLC,United Arab Emirates
+INQ0183,"Looking for TPR treat dispenser balls, durable, for Easter season, order 5000 pcs.",Stefan Schmid,stefan.schmid@haustier.ch,Furry Schmid AG,Switzerland
+INQ0184,"Searching for portable pet water bottles for kittens, plush material, size around 30cm, starting at 100 pcs.",Tanakorn Wong,tanakorn.wong@hotmail.co.th,Pet Plus Wong Ltd.,Thailand
+INQ0185,"Need orthopedic dog beds for our retail chain in European, adjustable, medium size, MOQ 1000.",Laura Klein,laura.klein@petworld.de,Furry Klein AG,Germany
+INQ0186,"Require pet first aid kits, plush material, durable, MOQ 200 pcs per shipment.",Ioana Dumitrescu,ioana.dumitrescu@petworld.ro,Best Pet Dumitrescu S.A.,Romania
+INQ0187,"Looking for natural rubber dog balls in Christmas theme, squeaky, MOQ 5000.",Astrid Andersson,astrid.andersson@telia.com,Pet Express Andersson AB,Sweden
+INQ0188,"Looking to source cat tunnel toys, orthopedic, approximately One Size, order quantity 300 pcs.",Conor Byrne,conor.byrne@petworld.ie,Pet Mart Byrne Teo,Ireland
+INQ0189,"We need silicone grooming gloves, waterproof, 45x28x28cm, bulk order 1500 pcs.",Reem AlOtibi,reem.alotibi@gmail.com,Animal Care AlOtibi Ltd.,Saudi Arabia
+INQ0190,"We want to source orthopedic dog beds, squeaky, 50x40cm, starting with 1500 pcs trial order.",Luc Janssens,luc.janssens@petworld.be,Pet Express Janssens BVBA,Belgium
+INQ0191,"Need valentine pet toys for our retail chain in Asian, collapsible, size around 20cm, MOQ 5000.",Sneha Gupta,sneha.gupta@petneeds.in,Purrfect Gupta LLP,India
+INQ0192,"Searching for cat feather wand toys, TPR material, waterproof, size around 30cm, order 2000 pcs.",Julia Fischer,julia.fischer@petworld.de,Pet Club Fischer AG,Germany
+INQ0193,"Interested in valentine pet toys, slow feeder, wholesale 200+ pcs for Australian.",Beatriz Santos,beatriz.santos@sapo.pt,Pet Pro Santos S.A.,Portugal
+INQ0194,"Searching for plush squeaky dog toys, soft material, small size, MOQ 200.",Noah Lundgren,noah.lundgren@petworld.se,Pet Express Lundgren AB,Sweden
+INQ0195,"Want to purchase washable pet beds, interactive, natural rubber, MOQ 1500.",Lucas Oliveira,lucas.oliveira@uol.com.br,Pet Direct Oliveira Comercio Ltda,Brazil
+INQ0196,"Searching for stainless steel non-slip bowls for small dogs, washable material, approx 18cm, starting at 300 pcs.",Andres Lopez,andres.lopez@petmundo.co,Pet Pro Lopez S.A.S.,Colombia
+INQ0197,"Need cat tunnel toys for kittens, washable, 80cm length, order 300 pcs.",Valentina Restrepo,valentina.restrepo@hotmail.com,Wagging Restrepo Ltda.,Colombia
+INQ0198,"Looking for catnip mouse toys in Summer theme, orthopedic, MOQ 5000.",Arjun Mehta,arjun.mehta@gmail.com,Pet Zone Mehta Pvt Ltd,India
+INQ0199,"Searching for silicone grooming gloves for puppies, silicone material, size around 15cm, starting at 1000 pcs.",Alessandro Rossi,alessandro.rossi@libero.it,Pet Land Rossi S.n.c.,Italy
+INQ0200,"Searching for retractable dog leashes, plush material, breathable, size around 10cm, order 1000 pcs.",Amit Patel,amit.patel@gmail.com,Pet Express Patel LLP,India
+INQ0201,"Want to purchase ceramic pet bowls, interactive, plush material, MOQ 500.",Astrid Andersson,astrid.andersson@gmail.com,Pet Club Andersson AB,Sweden
+INQ0202,"Looking for slow feeder bowls in Halloween theme, waterproof, MOQ 1000.",Beatriz Nascimento,beatriz.nascimento@petlove.com.br,Pawfect Nascimento Comercio Ltda,Brazil
+INQ0203,"Looking for plush squeaky cat toys in Halloween theme, lightweight, MOQ 200.",Klara Svobodova,klara.svobodova@petshop.cz,Pet Solutions Svobodova a.s.,Czech Republic
+INQ0204,"Looking for dog leashes suitable for small dogs, non-slip, approximate 45x28x28cm, MOQ 100 pcs.",Ingrid Hansen,ingrid.hansen@online.no,Pet Express Hansen AS,Norway
+INQ0205,"Looking for dog seat covers in Easter theme, durable, MOQ 3000.",Marie Lefebvre,marie.lefebvre@orange.fr,Pet Zone Lefebvre SARL,France
+INQ0206,"Searching for rubber chew toys, cotton rope, washable, size around 15cm, order 3000 pcs.",Charlotte Brown,charlotte.brown@petworld.nz,Happy Pet Brown Ltd.,New Zealand
+INQ0207,"Searching for cotton rope floss toys, silicone material, portable, One Size, order 200 pcs.",Elena Ruiz,elena.ruiz@petconfort.es,Pet Club Ruiz S.L.,Spain
+INQ0208,"Want to buy pet carrier bags for cats, durable, approx 12cm, need 1500 pieces.",Ruby Walker,ruby.walker@gmail.com,Best Pet Walker Ltd.,Australia
+INQ0209,"Require washable pet beds, food grade material, eco-friendly, MOQ 200 pcs per shipment.",Tomasz Kowalczyk,tomasz.kowalczyk@zwierzopol.pl,Pet Land Kowalczyk S.A.,Poland
+INQ0210,"Want to buy reflective dog collars for small dogs, foldable, medium size, need 1500 pieces.",Mary Johnson,mary.johnson@chewy.com,Pawfect Johnson Inc.,United States
+INQ0211,"We are looking for catnip mouse toys with machine washable, 40x25cm, starting at 5000 pcs.",Camila Moreno,camila.moreno@petmundo.co,Wagging Moreno Ltda.,Colombia
+INQ0212,"Require pet water bottles for pets, washable, One Size, initial order 2000 pcs.",Mary Johnson,mary.johnson@petsmart.com,Animal Johnson LLC,United States
+INQ0213,"We are looking for ceramic pet bowls with non-slip, large size, starting at 1000 pcs.",Charlotte Brown,charlotte.brown@petgo.co.nz,Pet Direct Brown Limited,New Zealand
+INQ0214,"Require dog cooling bandanas, soft material, non-slip, MOQ 2000 pcs per shipment.",Vikram Singh,vikram.singh@petneeds.in,Best Pet Singh LLP,India
+INQ0215,"Require portable pet water bottles for puppies, reflective, One Size, initial order 3000 pcs.",Benjamin Rojas,benjamin.rojas@gmail.com,Animal Care Rojas S.A.,Chile
+INQ0216,"Interested in wholesale dog seat covers, washable material, S/M/L, need 1500+ units.",Luc Janssens,luc.janssens@dierenvoor.be,Paws Janssens NV/SA,Belgium
+INQ0217,"Want to purchase portable pet water bottles, lightweight, plush material, MOQ 2000.",Mary Johnson,mary.johnson@outlook.com,Purrfect Johnson Inc.,United States
+INQ0218,"Want to buy nylon dog collars for puppies, lightweight, size around 20cm, need 1000 pieces.",Valentina Restrepo,valentina.restrepo@gmail.com,Pet Restrepo S.A.S.,Colombia
+INQ0219,"We need rubber chew toys, heavy duty, size around 30cm, bulk order 1000 pcs.",Daniela Flores,daniela.flores@petshop.mx,Best Pet Flores S.A. de C.V.,Mexico
+INQ0220,"Looking for slow feeder bowls in Christmas theme, washable, MOQ 5000.",Ana Torres,ana.torres@gmail.com,Pet Direct Torres Inc.,Philippines
+INQ0221,"Searching for rubber bouncy balls for dogs, plush material, size around 30cm, starting at 1500 pcs.",Maria Santos,maria.santos@petworld.ph,Pawfect Santos Inc.,Philippines
+INQ0222,"Looking for orthopedic dog beds, waterproof, MOQ 1500 pcs.",Reem AlOtibi,reem.alotibi@hotmail.com,Pet Direct AlOtibi LLC,Saudi Arabia
+INQ0223,"Looking for Halloween dog costumes, breathable, for Summer season, order 3000 pcs.",Yasmin Said,yasmin.said@yahoo.com,Wagging Said S.A.E.,Egypt
+INQ0224,"Need dog cooling bandanas for our retail chain in Australian, waterproof, size around 10cm, MOQ 1000.",Niamh Ryan,niamh.ryan@petstore.ie,Pet Pro Ryan Teo,Ireland
+INQ0225,"Looking to source pet first aid kits, non-slip, approximately One Size, order quantity 2000 pcs.",Sofia Rodriguez,sofia.rodriguez@petmundo.ar,Pet Rodriguez S.R.L.,Argentina
+INQ0226,"Want to buy slow feeder bowls for small dogs, adjustable, 80cm length, need 2000 pieces.",Zofia Zielinski,zofia.zielinski@wp.pl,Animal Care Zielinski S.A.,Poland
+INQ0227,"We need catnip plush toys, collapsible, approx 18cm, bulk order 2000 pcs.",Hao Goh,hao.goh@singnet.com.sg,Happy Pet Goh Pte Ltd,Singapore
+INQ0228,"Interested in wholesale collapsible pet travel bowls, eco-friendly material, 6-8cm diameter, need 5000+ units.",Kenji Yamamoto,kenji.yamamoto@pethome.jp,Companion Yamamoto K.K.,Japan
+INQ0229,"Require dog harnesses for medium dogs, lightweight, approx 18cm, initial order 200 pcs.",Sophie Roberts,sophie.roberts@petlandia.co.uk,Companion Roberts Group,United Kingdom
+INQ0230,"We are looking for laser cat toys with adjustable, large size, starting at 200 pcs.",Wei Tan,wei.tan@singnet.com.sg,Purrfect Tan Pte Ltd,Singapore
+INQ0231,"Interested in feather cat wands, reflective, wholesale 500+ pcs for European.",Hao Goh,hao.goh@petmart.sg,Pet Express Goh Pte Ltd,Singapore
+INQ0232,"We are looking for collapsible pet travel bowls with portable, 6-8cm diameter, starting at 100 pcs.",Alessandro Rossi,alessandro.rossi@gmail.com,Pet Pro Rossi S.r.l.,Italy
+INQ0233,"Looking for cotton rope tug toys, non-slip, for Easter season, order 5000 pcs.",Jack Anderson,jack.anderson@xtra.co.nz,Companion Anderson Ltd.,New Zealand
+INQ0234,"Looking for natural rubber dog balls suitable for pets, adjustable, approximate size around 25cm, MOQ 3000 pcs.",Julia Fischer,julia.fischer@web.de,Pet Club Fischer GmbH & Co. KG,Germany
+INQ0235,"We are looking for feather cat wands with eco-friendly, size around 20cm, starting at 2000 pcs.",Sean Murphy,sean.murphy@gmail.com,Purrfect Murphy Ltd.,Ireland
+INQ0236,"We need pet water bottles, slow feeder, small size, bulk order 1500 pcs.",Sem Smit,sem.smit@dierenvoor.nl,Pet Mart Smit B.V.,Netherlands
+INQ0237,"We are looking for orthopedic dog beds with durable, large size, starting at 100 pcs.",Sipho Mthembu,sipho.mthembu@petshop.co.za,Pet Club Mthembu Pty Ltd,South Africa
+INQ0238,"Need dog harnesses for medium dogs, adjustable, medium size, order 5000 pcs.",Fatma Mahmoud,fatma.mahmoud@gmail.com,Pet Zone Mahmoud LLC,Egypt
+INQ0239,"Looking for natural rubber dog balls, portable, MOQ 1000 pcs.",Emma Visser,emma.visser@kpn.nl,Paws Visser N.V.,Netherlands
+INQ0240,"Want to buy TPR squeaky toys for pets, adjustable, size around 25cm, need 2000 pieces.",Anna Huber,anna.huber@haustier.at,Tails Huber GmbH,Austria
+INQ0241,"Need Easter bunny pet toys for our retail chain in Asian, washable, size around 10cm, MOQ 1500.",Tomas Novak,tomas.novak@gmail.com,Best Pet Novak a.s.,Czech Republic
+INQ0242,"Need dog harnesses for puppies, eco-friendly, 80cm length, order 3000 pcs.",Klara Svobodova,klara.svobodova@gmail.com,Furry Svobodova s.r.o.,Czech Republic
+INQ0243,"Searching for retractable dog leashes, heavy duty material, 15cm diameter, MOQ 200.",Isabella Wilson,isabella.wilson@gmail.com,Pet Solutions Wilson Ltd.,New Zealand
+INQ0244,"We want to source cat scratching boards, slow feeder, One Size, starting with 5000 pcs trial order.",Andrew Edwards,andrew.edwards@petlandia.co.uk,Animal Care Edwards Ltd.,United Kingdom
+INQ0245,"Need feather cat wands for our retail chain in Asian, adjustable, size around 10cm, MOQ 3000.",Eleni Antoniou,eleni.antoniou@petshop.gr,Animal Antoniou AE,Greece
+INQ0246,"Looking to source multi-color rope toys, bouncy, approximately size around 20cm, order quantity 300 pcs.",Christian Lange,christian.lange@petworld.de,Pet World Lange GmbH & Co. KG,Germany
+INQ0247,"Want to buy rubber chew toys for medium dogs, reflective, 15cm diameter, need 2000 pieces.",Lucas Oliveira,lucas.oliveira@petbrasil.com.br,Paws Oliveira Ltda,Brazil
+INQ0248,"Need natural rubber dog balls, non-slip, for our European market, MOQ 2000 pcs.",Ahmed Hassan,ahmed.hassan@gmail.com,Pet Club Hassan LLC,Egypt
+INQ0249,"Want to purchase catnip mouse toys, foldable, eco-friendly material, MOQ 1500.",Mihai Stan,mihai.stan@petshop.ro,Companion Stan S.R.L.,Romania
+INQ0250,"Looking for natural rubber dog balls suitable for medium dogs, heavy duty, approximate 80cm length, MOQ 200 pcs.",Francesco Bianchi,francesco.bianchi@gmail.com,Pet Plus Bianchi S.n.c.,Italy
+INQ0251,"Want to purchase reflective dog collars, waterproof, food grade material, MOQ 1500.",Marte Larsen,marte.larsen@petworld.no,Purrfect Larsen BA,Norway
+INQ0252,"Interested in plush dog toys, breathable, wholesale 1500+ pcs for Middle Eastern.",Emma Taylor,emma.taylor@petplanet.co.uk,Animal Taylor Group,United Kingdom
+INQ0253,"Need plush squeaky dog toys for our retail chain in Australian, collapsible, S/M/L, MOQ 1000.",Andreas Meyer,andreas.meyer@web.de,Wagging Meyer GmbH,Germany
+INQ0254,"Interested in catnip mouse toys, machine washable, wholesale 300+ pcs for Australian.",Lucie Prochazkova,lucie.prochazkova@seznam.cz,Animal Care Prochazkova s.r.o.,Czech Republic
+INQ0255,"Want to buy dog harnesses for pets, machine washable, 40x25cm, need 1500 pieces.",Ananya Reddy,ananya.reddy@petmarket.in,Furry Reddy Ltd.,India
+INQ0256,"Interested in wholesale dog training clickers, TPR material, 80cm length, need 300+ units.",Reem AlOtibi,reem.alotibi@petshop.sa,Happy Pet AlOtibi LLC,Saudi Arabia
+INQ0257,"Interested in multi-color rope toys, adjustable, wholesale 5000+ pcs for South American.",Sofie Willems,sofie.willems@petworld.be,Wagging Willems NV/SA,Belgium
+INQ0258,"Looking to source dog cooling bandanas, adjustable, approximately 80cm length, order quantity 2000 pcs.",Aoife Kelly,aoife.kelly@eircom.net,Pet Go Kelly Ltd.,Ireland
+INQ0259,"Need cat feather wand toys for kittens, collapsible, size around 30cm, order 1500 pcs.",Mariana Costa,mariana.costa@sapo.pt,Pet World Costa S.A.,Portugal
+INQ0260,"Require Halloween dog costumes, eco-friendly material, non-slip, MOQ 2000 pcs per shipment.",Layla AlZaabi,layla.alzaabi@petworld.ae,Furry AlZaabi FZE,United Arab Emirates
+INQ0261,"We need TPR treat dispenser balls, portable, size around 25cm, bulk order 1000 pcs.",Emma Nieminen,emma.nieminen@gmail.com,Pet Land Nieminen Oyj,Finland
+INQ0262,"Looking to source cat scratching boards, eco-friendly, approximately 15cm diameter, order quantity 1500 pcs.",Laura Fernandez,laura.fernandez@gmail.com,Paws Fernandez S.A.,Spain
+INQ0263,"Searching for Christmas plush dog toys for cats, natural rubber, medium size, starting at 1500 pcs.",Giulia Russo,giulia.russo@amicicani.it,Furry Russo S.n.c.,Italy
+INQ0264,"Looking for pet carrier bags suitable for pets, collapsible, approximate approx 12cm, MOQ 300 pcs.",Daniel Lee,daniel.lee@koreapetlink.kr,Pet Go Lee Ltd.,South Korea
+INQ0265,"Need orthopedic dog beds for cats, lightweight, size around 25cm, order 1500 pcs.",Mikko Korhonen,mikko.korhonen@lemmikki.fi,Pet World Korhonen Oy,Finland
+INQ0266,"We need heavy duty rubber chew toys, reflective, size around 20cm, bulk order 5000 pcs.",Francois Leroy,francois.leroy@animallie.fr,Pet Direct Leroy SARL,France
+INQ0267,"Searching for dog leashes, nylon material, size around 10cm, MOQ 2000.",Francesco Bianchi,francesco.bianchi@libero.it,Animal Bianchi S.n.c.,Italy
+INQ0268,"Looking for plush dog toys suitable for dogs, washable, approximate size around 20cm, MOQ 3000 pcs.",Lisa Steiner,lisa.steiner@chello.at,Pet Plus Steiner OG,Austria
+INQ0269,"Searching for rope tug toys for dogs, natural rubber, size around 10cm, MOQ 200.",Jessica Moore,jessica.moore@gmail.com,Pet Zone Moore Co.,United States
+INQ0270,"Looking for cat scratching boards, durable, MOQ 300 pcs.",Helena Costa,helena.costa@gmail.com,Best Pet Costa Ltda,Brazil
+INQ0271,"Interested in wholesale Christmas plush dog toys, eco-friendly material, 45x28x28cm, need 1000+ units.",Maria Lopez,maria.lopez@gmail.com,Pet Plus Lopez S.L.U.,Spain
+INQ0272,"Looking for dog cooling bandanas, orthopedic, for Winter season, order 5000 pcs.",Mei Lim,mei.lim@petsg.sg,Pet Pro Lim Pte Ltd,Singapore
+INQ0273,"Require pet water bottles for dogs, orthopedic, medium size, initial order 500 pcs.",Wei Tan,wei.tan@petshop.my,Animal Care Tan Sdn. Bhd.,Malaysia
+INQ0274,"Need pet water bottles for our retail chain in Asian, foldable, 45x28x28cm, MOQ 100.",Emma VanderMerwe,emma.vandermerwe@petshop.co.za,Wagging VanderMerwe Inc.,South Africa
+INQ0275,"We need stainless steel non-slip bowls, double layer, size around 25cm, bulk order 100 pcs.",Nina Wolf,nina.wolf@petworld.de,Happy Pet Wolf AG,Germany
+INQ0276,"Looking for nylon dog collars, slow feeder, MOQ 5000 pcs.",Abdullah AlSaud,abdullah.alsaud@hotmail.com,Animal Care AlSaud LLC,Saudi Arabia
+INQ0277,"Looking for heavy duty rubber chew toys, squeaky, for Summer season, order 100 pcs.",Eva Gerber,eva.gerber@petworld.ch,Pet Pro Gerber AG,Switzerland
+INQ0278,"Interested in wholesale dog poop bag dispensers, eco-friendly material, size around 25cm, need 100+ units.",Miguel Almeida,miguel.almeida@uol.com.br,Wagging Almeida Ltda,Brazil
+INQ0279,"Looking for catnip plush toys suitable for medium dogs, adjustable, approximate One Size, MOQ 1500 pcs.",Christian Hansen,christian.hansen@gmail.com,Pet Mart Hansen A/S,Denmark
+INQ0280,"Searching for plush squeaky cat toys, washable material, durable, 45x28x28cm, order 2000 pcs.",Boon Lee,boon.lee@singnet.com.sg,Pet Go Lee Pte. Ltd.,Singapore
+INQ0281,"Interested in plush squeaky cat toys, squeaky, wholesale 1500+ pcs for Middle Eastern.",Eszter Kovacs,eszter.kovacs@petshop.hu,Pet Zone Kovacs Zrt.,Hungary
+INQ0282,"Looking to source washable pet beds, non-slip, approximately small size, order quantity 300 pcs.",Chai Suwannapong,chai.suwannapong@gmail.com,Wagging Suwannapong Ltd.,Thailand
+INQ0283,"Looking for cat scratching boards, eco-friendly, for Valentine season, order 100 pcs.",Marie Peeters,marie.peeters@telenet.be,Pet Club Peeters NV/SA,Belgium
+INQ0284,"Need plush squeaky cat toys for our retail chain in South American, squeaky, 40x25cm, MOQ 3000.",Tiago Fernandes,tiago.fernandes@petworld.pt,Animal Care Fernandes Lda.,Portugal
+INQ0285,"Searching for nylon dog collars for dogs, durable material, 6-8cm diameter, starting at 1000 pcs.",Ingrid Hansen,ingrid.hansen@dyrevenn.no,Best Pet Hansen AS,Norway
+INQ0286,"We need Easter bunny pet toys, squeaky, size around 20cm, bulk order 3000 pcs.",Alejandro Garcia,alejandro.garcia@tiendanimal.es,Pet World Garcia S.L.,Spain
+INQ0287,"Need retractable dog leashes, reflective, for our Asian market, MOQ 5000 pcs.",Javier Torres,javier.torres@hotmail.es,Pawfect Torres S.A.,Spain
+INQ0288,"Need interactive cat toys for puppies, reflective, 50x40cm, order 5000 pcs.",Juan Cruz,juan.cruz@petshop.ph,Companion Cruz Corp.,Philippines
+INQ0289,"Require catnip mouse toys for cats, non-slip, size around 10cm, initial order 500 pcs.",Ethan Clark,ethan.clark@petprosperity.com.au,Pet World Clark Pty. Ltd.,Australia
+INQ0290,"Need pet first aid kits for pets, adjustable, approx 18cm, order 2000 pcs.",Noam Cohen,noam.cohen@walla.co.il,Wagging Cohen Ltd.,Israel
+INQ0291,"Looking to source dog harnesses, durable, approximately 40x25cm, order quantity 5000 pcs.",Markus Bauer,markus.bauer@haustier.at,Pet Solutions Bauer OG,Austria
+INQ0292,"Need nylon dog collars for puppies, foldable, 40x25cm, order 1500 pcs.",Fatima AlMansouri,fatima.almansouri@petworld.ae,Paws AlMansouri L.L.C.,United Arab Emirates
+INQ0293,"Require feather cat wands, stainless steel, squeaky, MOQ 200 pcs per shipment.",Thomas Roux,thomas.roux@orange.fr,Purrfect Roux SARL,France
+INQ0294,"We want to source ceramic pet bowls, waterproof, 6-8cm diameter, starting with 2000 pcs trial order.",Sakura Takahashi,sakura.takahashi@gmail.com,Pet Land Takahashi Inc.,Japan
+INQ0295,"Searching for orthopedic dog beds, plush material, adjustable, size around 15cm, order 1000 pcs.",Layla AlZaabi,layla.alzaabi@etisalat.ae,Pet Plus AlZaabi FZ-LLC,United Arab Emirates
+INQ0296,"Require orthopedic dog beds, plush material, breathable, MOQ 1500 pcs per shipment.",Sofia Esposito,sofia.esposito@amicicani.it,Pet Mart Esposito S.n.c.,Italy
+INQ0297,"Searching for Christmas plush dog toys, natural rubber, 2.5cm x 45cm, MOQ 1000.",Matias Gonzalez,matias.gonzalez@petmundo.cl,Pet Club Gonzalez S.A.,Chile
+INQ0298,"Interested in interactive cat toys, eco-friendly, wholesale 1000+ pcs for Asian.",Oliver Smith,oliver.smith@petworld.nz,Pet Zone Smith Limited,New Zealand
+INQ0299,"Looking to source cat scratching boards, orthopedic, approximately size around 10cm, order quantity 200 pcs.",Laura Meier,laura.meier@petworld.ch,Pet Go Meier GmbH,Switzerland
+INQ0300,"Interested in wholesale reflective dog collars, nylon material, 50x40cm, need 3000+ units.",Wei Tan,wei.tan@gmail.com,Paws Tan Sdn. Bhd.,Malaysia
+INQ0301,"Need cotton rope floss toys for dogs, heavy duty, size around 20cm, order 3000 pcs.",Andreas Meyer,andreas.meyer@petworld.de,Purrfect Meyer GmbH,Germany
+INQ0302,"Looking for plush dog toys in New Year theme, waterproof, MOQ 1000.",Vikram Singh,vikram.singh@petmarket.in,Animal Singh LLP,India
+INQ0303,"Need dog training clickers, non-slip, for our African market, MOQ 500 pcs.",Sofie Pedersen,sofie.pedersen@kjaledyr.dk,Furry Pedersen A/S,Denmark
+INQ0304,"Searching for rope tug toys for dogs, natural rubber, 45x28x28cm, MOQ 1500.",Lea Guerin,lea.guerin@animallie.fr,Pet Mart Guerin SAS,France
+INQ0305,"Need dog seat covers for kittens, adjustable, approx 18cm, order 500 pcs.",Joao Silva,joao.silva@petworld.pt,Best Pet Silva S.A.,Portugal
+INQ0306,"Looking to source cat feather wand toys, waterproof, approximately size around 25cm, order quantity 200 pcs.",Carlos Gomez,carlos.gomez@petmundo.co,Pet Express Gomez Ltda.,Colombia
+INQ0307,"Looking for Halloween dog costumes suitable for small dogs, squeaky, approximate 2.5cm x 45cm, MOQ 200 pcs.",Mikko Korhonen,mikko.korhonen@luukku.com,Pet Solutions Korhonen Oyj,Finland
+INQ0308,"Searching for slow feeder bowls, eco-friendly material, double layer, 80cm length, order 3000 pcs.",Reem AlOtibi,reem.alotibi@petworld.sa,Pet Direct AlOtibi LLC,Saudi Arabia
+INQ0309,"Need washable pet beds, orthopedic, for our Australian market, MOQ 500 pcs.",Ava Harris,ava.harris@petcircle.com.au,Pet World Harris Pty Ltd,Australia
+INQ0310,"Interested in interactive cat toys, bouncy, wholesale 3000+ pcs for Middle Eastern.",Julia deBoer,julia.deboer@gmail.com,Best Pet deBoer N.V.,Netherlands
+INQ0311,"Looking for TPR squeaky toys suitable for medium dogs, eco-friendly, approximate medium size, MOQ 2000 pcs.",Yuna Jung,yuna.jung@petplus.kr,Happy Pet Jung Co. Ltd.,South Korea
+INQ0312,"Looking for Easter bunny pet toys, reflective, MOQ 3000 pcs.",Jessica Moore,jessica.moore@outlook.com,Furry Moore Inc.,United States
+INQ0313,"Searching for washable pet beds for dogs, TPR material, medium size, starting at 200 pcs.",Emma VanderMerwe,emma.vandermerwe@petworld.co.za,Pet Pro VanderMerwe Inc.,South Africa
+INQ0314,"We want to source pet carrier bags, breathable, 80cm length, starting with 2000 pcs trial order.",Anna Kowalski,anna.kowalski@wp.pl,Tails Kowalski S.A.,Poland
+INQ0315,"We are looking for automatic pet feeders with slow feeder, size around 30cm, starting at 500 pcs.",Helena Costa,helena.costa@petbrasil.com.br,Best Pet Costa Ltda,Brazil
+INQ0316,"Need plush squeaky cat toys for our retail chain in South American, reflective, size around 20cm, MOQ 200.",Ploy Charoen,ploy.charoen@petshop.co.th,Tails Charoen Co. Ltd.,Thailand
+INQ0317,"Require catnip plush toys, nylon material, foldable, MOQ 2000 pcs per shipment.",Mateo Gonzalez,mateo.gonzalez@petshop.ar,Pet Go Gonzalez S.A.,Argentina
+INQ0318,"Want to buy Easter bunny pet toys for puppies, lightweight, 2.5cm x 45cm, need 1000 pieces.",Ioana Dumitrescu,ioana.dumitrescu@gmail.com,Pawfect Dumitrescu S.R.L.,Romania
+INQ0319,"Looking for dog leashes suitable for medium dogs, bouncy, approximate 50x40cm, MOQ 1500 pcs.",Maja Forsberg,maja.forsberg@gmail.com,Purrfect Forsberg AB,Sweden
+INQ0320,"Looking to source nylon dog collars, breathable, approximately One Size, order quantity 3000 pcs.",Taro Yoshida,taro.yoshida@yahoo.co.jp,Tails Yoshida Inc.,Japan
+INQ0321,"We want to source orthopedic dog beds, double layer, size around 15cm, starting with 200 pcs trial order.",Julie Bonnet,julie.bonnet@gmail.com,Pet Solutions Bonnet SA,France
+INQ0322,"We want to source collapsible pet travel bowls, non-slip, size around 10cm, starting with 200 pcs trial order.",Ahmed Hassan,ahmed.hassan@petworld.eg,Furry Hassan LLC,Egypt
+INQ0323,"We need dog seat covers, squeaky, 50x40cm, bulk order 200 pcs.",Tanakorn Wong,tanakorn.wong@petshop.co.th,Pet Go Wong Ltd.,Thailand
+INQ0324,"Looking to source rubber bouncy balls, collapsible, approximately 2.5cm x 45cm, order quantity 100 pcs.",Miguel Almeida,miguel.almeida@gmail.com,Pet Express Almeida Comercio Ltda,Brazil
+INQ0325,"Looking to source orthopedic dog beds, orthopedic, approximately approx 18cm, order quantity 2000 pcs.",Itai Mizrahi,itai.mizrahi@petworld.co.il,Happy Pet Mizrahi Inc.,Israel
+INQ0326,"Looking for portable pet water bottles, durable, MOQ 200 pcs.",Yasmin Said,yasmin.said@petworld.eg,Pawfect Said S.A.E.,Egypt
+INQ0327,"Searching for cotton rope floss toys, heavy duty material, portable, 2.5cm x 45cm, order 500 pcs.",Niamh Ryan,niamh.ryan@eircom.net,Tails Ryan Ltd.,Ireland
+INQ0328,"Want to purchase natural rubber dog balls, waterproof, natural rubber, MOQ 5000.",Hana Lim,hana.lim@koreapetlink.kr,Companion Lim Co. Ltd.,South Korea
+INQ0329,"We are looking for rubber chew toys with non-slip, size around 10cm, starting at 2000 pcs.",Sophie Roberts,sophie.roberts@outlook.com,Pet Direct Roberts Group,United Kingdom
+INQ0330,"Require feather cat wands, TPR material, breathable, MOQ 1000 pcs per shipment.",Maria Georgiou,maria.georgiou@petshop.gr,Furry Georgiou AE,Greece
+INQ0331,"Looking for ceramic pet bowls, durable, for Valentine season, order 2000 pcs.",Sipho Mthembu,sipho.mthembu@telkomsa.net,Pet Express Mthembu Ltd.,South Africa
+INQ0332,"Searching for portable pet water bottles, nylon material, lightweight, 15cm diameter, order 5000 pcs.",David Wilson,david.wilson@barkbox.ca,Pet Club Wilson Inc.,Canada
+INQ0333,"Need cat feather wand toys for our retail chain in North American, durable, 6-8cm diameter, MOQ 500.",Manon Renaud,manon.renaud@petmag.fr,Pet Mart Renaud SA,France
+INQ0334,"Need cotton rope tug toys for puppies, breathable, 40x25cm, order 5000 pcs.",Mary Johnson,mary.johnson@gmail.com,Companion Johnson LLP,United States
+INQ0335,"Searching for cat tunnel toys, nylon material, lightweight, 2.5cm x 45cm, order 3000 pcs.",Michael Hoffmann,michael.hoffmann@gmail.com,Happy Pet Hoffmann GmbH,Germany
+INQ0336,"Searching for nylon dog collars for puppies, non-toxic material, 15cm diameter, starting at 300 pcs.",Laura Fernandez,laura.fernandez@hotmail.es,Pet Fernandez S.A.,Spain
+INQ0337,"Looking for dog poop bag dispensers suitable for large dogs, bouncy, approximate 2.5cm x 45cm, MOQ 300 pcs.",Yuki Suzuki,yuki.suzuki@gmail.com,Happy Pet Suzuki Inc.,Japan
+INQ0338,"Looking for nylon dog collars in Holiday theme, adjustable, MOQ 3000.",Jan Mertens,jan.mertens@petworld.be,Pet Club Mertens BVBA,Belgium
+INQ0339,"Searching for dog harnesses, cotton rope, orthopedic, large size, order 5000 pcs.",Jessica Stewart,jessica.stewart@barkbox.ca,Pet Stewart Corp.,Canada
+INQ0340,"We want to source silicone grooming gloves, waterproof, 50x40cm, starting with 500 pcs trial order.",Valeria Flores,valeria.flores@gmail.com,Pet Mart Flores S.A.C.,Peru
+INQ0341,"Need TPR squeaky toys for our retail chain in African, double layer, One Size, MOQ 500.",Sarah Martin,sarah.martin@gmail.com,Pet Solutions Martin Corp.,United States
+INQ0342,"Want to purchase reflective dog collars, foldable, silicone material, MOQ 200.",Ashley MacKenzie,ashley.mackenzie@petmac.ca,Animal MacKenzie Ltd.,Canada
+INQ0343,"Want to purchase heavy duty rubber chew toys, breathable, durable material, MOQ 1500.",Sarah Schulz,sarah.schulz@gmail.com,Tails Schulz AG,Germany
+INQ0344,"Looking for cat tunnel toys, orthopedic, for New Year season, order 300 pcs.",Tomasz Kowalczyk,tomasz.kowalczyk@gmail.com,Pet Pro Kowalczyk S.A.,Poland
+INQ0345,"Searching for silicone grooming gloves, food grade material, 80cm length, MOQ 2000.",Lucas Mulder,lucas.mulder@dierenvoor.nl,Animal Care Mulder N.V.,Netherlands
+INQ0346,"Want to purchase rope tug toys for dogs, non-slip, silicone material, MOQ 1000.",Haruka Yamada,haruka.yamada@petlife.jp,Animal Care Yamada Co. Ltd.,Japan
+INQ0347,"We are looking for cat tunnel toys with portable, size around 25cm, starting at 200 pcs.",Marie Peeters,marie.peeters@petworld.be,Pawfect Peeters BVBA,Belgium
+INQ0348,"Searching for heavy duty rubber chew toys, TPR material, approx 18cm, MOQ 2000.",Ioana Dumitrescu,ioana.dumitrescu@yahoo.com,Pet Direct Dumitrescu S.A.,Romania
+INQ0349,"Need silicone grooming gloves for our retail chain in Middle Eastern, slow feeder, 40x25cm, MOQ 500.",Lea Guerin,lea.guerin@petmag.fr,Pet Guerin SAS,France
+INQ0350,"Require catnip mouse toys for kittens, adjustable, 80cm length, initial order 1500 pcs.",Camille Fournier,camille.fournier@animallie.fr,Animal Care Fournier SAS,France
+INQ0351,"Want to purchase catnip mouse toys, lightweight, stainless steel, MOQ 1500.",Pedro Reyes,pedro.reyes@yahoo.com,Pet Zone Reyes Corp.,Philippines
+INQ0352,"Want to buy dog leashes for cats, washable, 45x28x28cm, need 2000 pieces.",Aoife Kelly,aoife.kelly@gmail.com,Pawfect Kelly Ltd.,Ireland
+INQ0353,"We need ceramic pet bowls, waterproof, 6-8cm diameter, bulk order 3000 pcs.",Matteo Marino,matteo.marino@petstore.it,Pet Express Marino S.p.A.,Italy
+INQ0354,"Want to buy Easter bunny pet toys for cats, slow feeder, size around 25cm, need 500 pieces.",Joaquin Vargas,joaquin.vargas@petshop.pe,Pet Direct Vargas S.R.L.,Peru
+INQ0355,"Looking for nylon dog collars in Valentine theme, slow feeder, MOQ 2000.",Sem Smit,sem.smit@gmail.com,Purrfect Smit B.V.,Netherlands
+INQ0356,"We need plush squeaky cat toys, portable, 15cm diameter, bulk order 5000 pcs.",Ploy Charoen,ploy.charoen@gmail.com,Pet Mart Charoen Ltd.,Thailand
+INQ0357,"Need Halloween dog costumes, adjustable, for our Middle Eastern market, MOQ 300 pcs.",Noah Taylor,noah.taylor@gmail.com,Animal Taylor Pty Ltd,Australia
+INQ0358,"Searching for reflective dog collars for pets, nylon material, large size, starting at 1500 pcs.",Ebba Lindberg,ebba.lindberg@svenskapet.se,Pet Club Lindberg AB,Sweden
+INQ0359,"Need plush dinosaur dog toys for dogs, slow feeder, large size, order 500 pcs.",Valentina Restrepo,valentina.restrepo@petmundo.co,Pet Plus Restrepo Ltda.,Colombia
+INQ0360,"Need dog training clickers for our retail chain in South American, foldable, size around 15cm, MOQ 3000.",David Wilson,david.wilson@outlook.com,Pet World Wilson Inc.,Canada
+INQ0361,"Interested in wholesale dog poop bag dispensers, eco-friendly material, size around 15cm, need 1000+ units.",Javier Torres,javier.torres@gmail.com,Pet World Torres S.L.,Spain
+INQ0362,"Looking for plush dinosaur dog toys in Holiday theme, durable, MOQ 100.",Carlos Gomez,carlos.gomez@petshop.co,Pet World Gomez Ltda.,Colombia
+INQ0363,"Want to purchase dog harnesses, foldable, plush material, MOQ 1500.",Michael Thompson,michael.thompson@gmail.com,Pet Direct Thompson Ltd.,Canada
+INQ0364,"Need portable pet water bottles for dogs, durable, 6-8cm diameter, order 2000 pcs.",James Anderson,james.anderson@petcircle.com.au,Best Pet Anderson Ltd.,Australia
+INQ0365,"Interested in rubber chew toys, waterproof, wholesale 300+ pcs for North American.",Mohamed Ibrahim,mohamed.ibrahim@petworld.eg,Pet Go Ibrahim LLC,Egypt
+INQ0366,"Looking for plush dinosaur dog toys, breathable, MOQ 5000 pcs.",Thomas Jackson,thomas.jackson@gmail.com,Companion Jackson Group,United States
+INQ0367,"Looking for valentine pet toys, waterproof, MOQ 1000 pcs.",Rahul Sharma,rahul.sharma@petneeds.in,Pawfect Sharma LLP,India
+INQ0368,"Want to purchase dog seat covers, lightweight, TPR material, MOQ 200.",Astrid Andersson,astrid.andersson@petworld.se,Companion Andersson KB,Sweden
+INQ0369,"Want to buy collapsible pet travel bowls for dogs, double layer, size around 20cm, need 300 pieces.",William Taylor,william.taylor@xtra.co.nz,Furry Taylor Ltd.,New Zealand
+INQ0370,"Require washable pet beds for dogs, lightweight, size around 15cm, initial order 1500 pcs.",Patricia Brown,patricia.brown@outlook.com,Best Pet Brown LLP,United States
+INQ0371,"Searching for interactive cat toys for puppies, soft material, 50x40cm, starting at 300 pcs.",Gabriel Pereira,gabriel.pereira@gmail.com,Pet World Pereira Comercio Ltda,Brazil
+INQ0372,"Looking for ceramic pet bowls in Winter theme, foldable, MOQ 500.",Maya Levi,maya.levi@petworld.co.il,Pet Land Levi Ltd.,Israel
+INQ0373,"We want to source Easter bunny pet toys, collapsible, size around 25cm, starting with 5000 pcs trial order.",Matias Gonzalez,matias.gonzalez@hotmail.com,Pet World Gonzalez Ltda.,Chile
+INQ0374,"Looking for plush squeaky cat toys, durable, MOQ 5000 pcs.",Alice Lima,alice.lima@gmail.com,Pet Mart Lima S.A.,Brazil
+INQ0375,"Need dog harnesses for large dogs, durable, small size, order 1000 pcs.",Tomasz Kowalczyk,tomasz.kowalczyk@petstore.pl,Furry Kowalczyk Sp. z o.o.,Poland
+INQ0376,"We want to source cotton rope floss toys, collapsible, medium size, starting with 1500 pcs trial order.",Mohammed AlMaktoum,mohammed.almaktoum@petdubai.ae,Pet Mart AlMaktoum FZ-LLC,United Arab Emirates
+INQ0377,"Interested in wholesale Christmas plush dog toys, plush material, 45x28x28cm, need 500+ units.",Mihai Stan,mihai.stan@petworld.ro,Pet Club Stan S.A.,Romania
+INQ0378,"Require valentine pet toys, eco-friendly material, slow feeder, MOQ 300 pcs per shipment.",Karen Thompson,karen.thompson@gmail.com,Pet Direct Thompson LLC,United States
+INQ0379,"Searching for interactive cat toys, nylon material, portable, size around 25cm, order 100 pcs.",Mohamed Ibrahim,mohamed.ibrahim@gmail.com,Pet Land Ibrahim LLC,Egypt
+INQ0380,"We need washable pet beds, machine washable, medium size, bulk order 500 pcs.",Ananya Reddy,ananya.reddy@rediffmail.com,Pet Go Reddy Ltd.,India
+INQ0381,"Interested in wholesale cotton rope tug toys, stainless steel, large size, need 500+ units.",Pooja Joshi,pooja.joshi@petneeds.in,Tails Joshi LLP,India
+INQ0382,"We need dog harnesses, machine washable, small size, bulk order 1000 pcs.",Vikram Singh,vikram.singh@gmail.com,Companion Singh Pvt Ltd,India
+INQ0383,"We need pet first aid kits, machine washable, size around 15cm, bulk order 2000 pcs.",Sarah Botha,sarah.botha@petshop.co.za,Pet Plus Botha Pty Ltd,South Africa
+INQ0384,"Searching for ceramic pet bowls, food grade material, breathable, 50x40cm, order 2000 pcs.",Wei Tan,wei.tan@petworld.my,Pet Pro Tan Sdn. Bhd.,Malaysia
+INQ0385,"Require Halloween dog costumes, natural rubber, double layer, MOQ 100 pcs per shipment.",Liam Berg,liam.berg@gmail.com,Animal Care Berg KB,Sweden
+INQ0386,"We are looking for plush dinosaur dog toys with slow feeder, medium size, starting at 3000 pcs.",Mei Lim,mei.lim@gmail.com,Pet Go Lim Pte Ltd,Singapore
+INQ0387,"Want to buy dog cooling bandanas for cats, waterproof, 50x40cm, need 200 pieces.",Abdullah AlSaud,abdullah.alsaud@petshop.sa,Animal Care AlSaud LLC,Saudi Arabia
+INQ0388,"Want to purchase cat feather wand toys, washable, stainless steel, MOQ 3000.",Mohamed Ibrahim,mohamed.ibrahim@petshop.eg,Pet Direct Ibrahim S.A.E.,Egypt
+INQ0389,"Need multi-color rope toys for medium dogs, collapsible, 40x25cm, order 2000 pcs.",Aino Virtanen,aino.virtanen@petworld.fi,Purrfect Virtanen Oy,Finland
+INQ0390,"Need portable pet water bottles for puppies, collapsible, size around 15cm, order 3000 pcs.",Kenji Yamamoto,kenji.yamamoto@petlife.jp,Pet Yamamoto K.K.,Japan
+INQ0391,"Require dog poop bag dispensers for small dogs, durable, 45x28x28cm, initial order 3000 pcs.",Lucia Sanchez,lucia.sanchez@gmail.com,Animal Sanchez S.L.U.,Spain
+INQ0392,"Searching for stainless steel dog bowls for large dogs, washable material, 40x25cm, starting at 1000 pcs.",Isabella Munoz,isabella.munoz@hotmail.com,Pet Direct Munoz S.A.,Chile
+INQ0393,"Need cotton rope floss toys for our retail chain in North American, adjustable, small size, MOQ 100.",Hao Goh,hao.goh@petsg.sg,Pet Mart Goh Pte. Ltd.,Singapore
+INQ0394,"Want to purchase cat feather wand toys, double layer, cotton rope, MOQ 2000.",Magnus Nielsen,magnus.nielsen@petworld.dk,Purrfect Nielsen A/S,Denmark
+INQ0395,"We need catnip mouse toys, non-slip, S/M/L, bulk order 100 pcs.",Mihai Stan,mihai.stan@yahoo.com,Purrfect Stan S.R.L.,Romania
+INQ0396,"Need stainless steel dog bowls for kittens, portable, 80cm length, order 200 pcs.",Anna Szabo,anna.szabo@freemail.hu,Furry Szabo Zrt.,Hungary
+INQ0397,"Require dog leashes for dogs, orthopedic, size around 30cm, initial order 2000 pcs.",Abdullah AlSaud,abdullah.alsaud@petworld.sa,Pet Mart AlSaud LLC,Saudi Arabia
+INQ0398,"We want to source portable pet water bottles, waterproof, size around 20cm, starting with 5000 pcs trial order.",Patricia Rodriguez,patricia.rodriguez@hotmail.com,Purrfect Rodriguez S.A. de C.V.,Mexico
+INQ0399,"Want to purchase automatic pet feeders, double layer, TPR material, MOQ 1500.",Carlos Martinez,carlos.martinez@gmail.com,Pet World Martinez S.A.,Mexico
+INQ0400,"Looking for plush squeaky dog toys, portable, for Holiday season, order 1500 pcs.",Andrew Edwards,andrew.edwards@gmail.com,Pet Solutions Edwards LLP,United Kingdom
+INQ0401,"Require natural rubber dog balls for puppies, durable, approx 12cm, initial order 300 pcs.",Siti Ismail,siti.ismail@petshop.my,Pet World Ismail Sdn. Bhd.,Malaysia
+INQ0402,"Need rubber chew toys, eco-friendly, for our Australian market, MOQ 5000 pcs.",Sarah Clarke,sarah.clarke@gmail.com,Pet Go Clarke LLP,Canada
+INQ0403,"Searching for dog harnesses, washable material, approx 18cm, MOQ 300.",Jia Ong,jia.ong@petsg.sg,Pet Mart Ong Pte Ltd,Singapore
+INQ0404,"Looking to source interactive cat toys, washable, approximately size around 30cm, order quantity 1000 pcs.",Sarah Clarke,sarah.clarke@outlook.com,Purrfect Clarke LLP,Canada
+INQ0405,"We are looking for washable pet beds with eco-friendly, 45x28x28cm, starting at 5000 pcs.",Patricia Brown,patricia.brown@petco.com,Pet Mart Brown Group,United States
+INQ0406,"We are looking for nylon dog collars with foldable, medium size, starting at 3000 pcs.",Deepika Nair,deepika.nair@petneeds.in,Pet Direct Nair LLP,India
+INQ0407,"Require pet water bottles, stainless steel, heavy duty, MOQ 100 pcs per shipment.",Henrik Nilsson,henrik.nilsson@gmail.com,Pet Zone Nilsson AS,Norway
+INQ0408,"Searching for plush dog toys, food grade material, approx 18cm, MOQ 1000.",Chai Suwannapong,chai.suwannapong@hotmail.co.th,Paws Suwannapong Co. Ltd.,Thailand
+INQ0409,"Want to purchase valentine pet toys, collapsible, eco-friendly material, MOQ 200.",Carlos Gomez,carlos.gomez@hotmail.com,Pet Land Gomez Ltda.,Colombia
+INQ0410,"Want to purchase dog leashes, machine washable, soft material, MOQ 5000.",Noura AlQahtani,noura.alqahtani@petshop.sa,Furry AlQahtani Ltd.,Saudi Arabia
+INQ0411,"Searching for stainless steel dog bowls, cotton rope, bouncy, 50x40cm, order 200 pcs.",Ahmad Rahman,ahmad.rahman@hotmail.com,Pet Pro Rahman Sdn Bhd,Malaysia
+INQ0412,"Require natural rubber dog balls, food grade material, heavy duty, MOQ 1500 pcs per shipment.",Mariana Costa,mariana.costa@animal.pt,Pet Go Costa Lda.,Portugal
+INQ0413,"Interested in dog cooling bandanas, bouncy, wholesale 1000+ pcs for Middle Eastern.",Carmen Diaz,carmen.diaz@petconfort.es,Happy Pet Diaz S.L.,Spain
+INQ0414,"Searching for TPR treat dispenser balls, TPR material, portable, small size, order 1500 pcs.",Takeshi Watanabe,takeshi.watanabe@pethome.jp,Paws Watanabe Co. Ltd.,Japan
+INQ0415,"Searching for cotton rope tug toys for large dogs, stainless steel, 50x40cm, starting at 1000 pcs.",Jan Mertens,jan.mertens@telenet.be,Pet Express Mertens BVBA,Belgium
+INQ0416,"Want to buy nylon dog collars for cats, adjustable, approx 18cm, need 500 pieces.",Nurul Abdullah,nurul.abdullah@hotmail.com,Pet Plus Abdullah Sdn. Bhd.,Malaysia
+INQ0417,"Need natural rubber dog balls, washable, for our Middle Eastern market, MOQ 1000 pcs.",Grace Cooper,grace.cooper@outlook.com,Pet Express Cooper LLP,United Kingdom
+INQ0418,"Looking for dog harnesses in Halloween theme, squeaky, MOQ 500.",Aino Virtanen,aino.virtanen@lemmikki.fi,Paws Virtanen Oyj,Finland
+INQ0419,"Require valentine pet toys for small dogs, orthopedic, 15cm diameter, initial order 3000 pcs.",Francisca Diaz,francisca.diaz@petshop.cl,Pet Plus Diaz Ltda.,Chile
+INQ0420,"Need reflective dog collars for our retail chain in North American, orthopedic, small size, MOQ 1500.",Maya Levi,maya.levi@petshop.co.il,Pet Levi Ltd.,Israel
+INQ0421,"Looking for dog harnesses in New Year theme, washable, MOQ 300.",Pablo Martinez,pablo.martinez@petconfort.es,Happy Pet Martinez S.L.U.,Spain
+INQ0422,"We need TPR treat dispenser balls, breathable, One Size, bulk order 300 pcs.",Elena Ionescu,elena.ionescu@yahoo.com,Pet Plus Ionescu S.A.,Romania
+INQ0423,"Require cotton rope tug toys for medium dogs, adjustable, approx 12cm, initial order 5000 pcs.",Sofia deVries,sofia.devries@gmail.com,Pet Land deVries N.V.,Netherlands
+INQ0424,"Interested in wholesale dog seat covers, plush material, 2.5cm x 45cm, need 5000+ units.",Jari Makinen,jari.makinen@petworld.fi,Pet Go Makinen Oy,Finland
+INQ0425,"Require TPR squeaky toys for kittens, waterproof, small size, initial order 1000 pcs.",Diego Quispe,diego.quispe@hotmail.com,Animal Care Quispe S.R.L.,Peru
+INQ0426,"Searching for heavy duty rubber chew toys, heavy duty material, machine washable, 80cm length, order 1500 pcs.",Jakub Lewandowski,jakub.lewandowski@petstore.pl,Companion Lewandowski Sp. z o.o.,Poland
+INQ0427,"We need orthopedic dog beds, reflective, small size, bulk order 2000 pcs.",Patricia Rodriguez,patricia.rodriguez@gmail.com,Companion Rodriguez Ltda.,Mexico
+INQ0428,"We are looking for natural rubber dog balls with bouncy, size around 25cm, starting at 1000 pcs.",Lucas Oliveira,lucas.oliveira@gmail.com,Pet Direct Oliveira Comercio Ltda,Brazil
+INQ0429,"Searching for stainless steel non-slip bowls for small dogs, nylon material, approx 12cm, starting at 1500 pcs.",Marco Ferrari,marco.ferrari@petstore.it,Wagging Ferrari S.n.c.,Italy
+INQ0430,"Want to purchase cat feather wand toys, eco-friendly, plush material, MOQ 1500.",Isabella Munoz,isabella.munoz@gmail.com,Pet Solutions Munoz Ltda.,Chile
+INQ0431,"Require orthopedic dog beds for pets, portable, 45x28x28cm, initial order 3000 pcs.",Fatima AlMansouri,fatima.almansouri@etisalat.ae,Animal Care AlMansouri L.L.C.,United Arab Emirates
+INQ0432,"Looking for TPR squeaky toys suitable for cats, collapsible, approximate size around 10cm, MOQ 3000 pcs.",James OConnor,james.oconnor@barkbox.ca,Purrfect OConnor LLP,Canada
+INQ0433,"Searching for orthopedic dog beds, TPR material, 6-8cm diameter, MOQ 500.",Nurul Abdullah,nurul.abdullah@petworld.my,Pet Go Abdullah Sdn Bhd,Malaysia
+INQ0434,"Interested in TPR treat dispenser balls, lightweight, wholesale 2000+ pcs for North American.",Freja Jensen,freja.jensen@petworld.dk,Pet Express Jensen A/S,Denmark
+INQ0435,"Need rubber bouncy balls for large dogs, orthopedic, 6-8cm diameter, order 500 pcs.",Sarah Martin,sarah.martin@petsmart.com,Companion Martin Group,United States
+INQ0436,"Interested in wholesale rubber bouncy balls, heavy duty material, size around 25cm, need 2000+ units.",Lucas Mulder,lucas.mulder@gmail.com,Pet Zone Mulder B.V.,Netherlands
+INQ0437,"Looking for portable pet water bottles, adjustable, for Easter season, order 300 pcs.",Olivia Brown,olivia.brown@petprosperity.com.au,Happy Pet Brown Ltd.,Australia
+INQ0438,"We want to source pet first aid kits, eco-friendly, size around 15cm, starting with 200 pcs trial order.",Andrei Popescu,andrei.popescu@petworld.ro,Pet Solutions Popescu S.A.,Romania
+INQ0439,"Looking for plush squeaky dog toys, durable, for Halloween season, order 500 pcs.",Ahmad Rahman,ahmad.rahman@petworld.my,Pet Land Rahman Sdn Bhd,Malaysia
+INQ0440,"Searching for TPR treat dispenser balls, natural rubber, small size, MOQ 300.",Jessica Stewart,jessica.stewart@petmac.ca,Pet Direct Stewart Ltd.,Canada
+INQ0441,"Need retractable dog leashes, waterproof, for our Australian market, MOQ 300 pcs.",Francisca Diaz,francisca.diaz@gmail.com,Pet Solutions Diaz Ltda.,Chile
+INQ0442,"We want to source interactive cat toys, interactive, size around 10cm, starting with 5000 pcs trial order.",Jari Makinen,jari.makinen@gmail.com,Pet Plus Makinen Oy,Finland
+INQ0443,"Need cat feather wand toys for our retail chain in European, bouncy, One Size, MOQ 100.",Stefan Schmid,stefan.schmid@gmail.com,Wagging Schmid GmbH,Switzerland
+INQ0444,"Interested in wholesale silicone grooming gloves, nylon material, 80cm length, need 1500+ units.",Nikos Papadopoulos,nikos.papadopoulos@otenet.gr,Pet Plus Papadopoulos EE,Greece
+INQ0445,"Looking for silicone grooming gloves in Holiday theme, orthopedic, MOQ 300.",Nina Weber,nina.weber@petworld.ch,Pet Zone Weber GmbH,Switzerland
+INQ0446,"Need plush squeaky dog toys, non-slip, for our Australian market, MOQ 1000 pcs.",Matteo Marino,matteo.marino@gmail.com,Pet Club Marino S.r.l.,Italy
+INQ0447,"Searching for slow feeder bowls, nylon material, breathable, 50x40cm, order 2000 pcs.",Anna Greco,anna.greco@gmail.com,Pet Zone Greco S.p.A.,Italy
+INQ0448,"We want to source reflective dog collars, heavy duty, medium size, starting with 1500 pcs trial order.",Magda Kaminski,magda.kaminski@petstore.pl,Pawfect Kaminski S.A.,Poland
+INQ0449,"Searching for heavy duty rubber chew toys, silicone material, non-slip, One Size, order 1000 pcs.",Nurul Abdullah,nurul.abdullah@gmail.com,Best Pet Abdullah Sdn Bhd,Malaysia
+INQ0450,"Searching for stainless steel dog bowls, TPR material, medium size, MOQ 5000.",Mei Lim,mei.lim@petmart.sg,Pawfect Lim Pte Ltd,Singapore
+INQ0451,"Looking to source TPR treat dispenser balls, orthopedic, approximately 2.5cm x 45cm, order quantity 5000 pcs.",Stefan Gruber,stefan.gruber@gmail.com,Pet Direct Gruber OG,Austria
+INQ0452,"Searching for plush squeaky dog toys, stainless steel, lightweight, 80cm length, order 200 pcs.",Ahmad Rahman,ahmad.rahman@gmail.com,Animal Rahman Sdn. Bhd.,Malaysia
+INQ0453,"Looking to source stainless steel non-slip bowls, eco-friendly, approximately size around 20cm, order quantity 500 pcs.",Jan Mertens,jan.mertens@dierenvoor.be,Pet Land Mertens BVBA,Belgium
+INQ0454,"We are looking for nylon dog collars with reflective, 50x40cm, starting at 100 pcs.",Charlotte Brown,charlotte.brown@xtra.co.nz,Wagging Brown Limited,New Zealand
+INQ0455,"Looking for ceramic pet bowls suitable for dogs, lightweight, approximate 2.5cm x 45cm, MOQ 5000 pcs.",Ebba Lindberg,ebba.lindberg@telia.com,Purrfect Lindberg KB,Sweden
+INQ0456,"Looking for Halloween dog costumes suitable for pets, bouncy, approximate medium size, MOQ 5000 pcs.",Matteo Marino,matteo.marino@libero.it,Purrfect Marino S.r.l.,Italy
+INQ0457,"Require orthopedic dog beds, durable material, waterproof, MOQ 3000 pcs per shipment.",Camila Moreno,camila.moreno@hotmail.com,Purrfect Moreno Ltda.,Colombia
+INQ0458,"Want to buy dog harnesses for medium dogs, bouncy, size around 20cm, need 3000 pieces.",Martin Lehmann,martin.lehmann@web.de,Pet Club Lehmann GmbH & Co. KG,Germany
+INQ0459,"We want to source washable pet beds, portable, 80cm length, starting with 500 pcs trial order.",Carlos Rodriguez,carlos.rodriguez@petconfort.es,Tails Rodriguez S.A.,Spain
+INQ0460,"We are looking for rubber chew toys with breathable, 45x28x28cm, starting at 500 pcs.",Ruby Walker,ruby.walker@petprosperity.com.au,Best Pet Walker Pty. Ltd.,Australia
+INQ0461,"Need collapsible pet travel bowls for puppies, slow feeder, 80cm length, order 3000 pcs.",Andres Lopez,andres.lopez@gmail.com,Purrfect Lopez Ltda.,Colombia
+INQ0462,"Need TPR squeaky toys, reflective, for our North American market, MOQ 2000 pcs.",Pedro Reyes,pedro.reyes@gmail.com,Pet Plus Reyes Inc.,Philippines
+INQ0463,"Need interactive cat toys for our retail chain in Middle Eastern, double layer, 45x28x28cm, MOQ 100.",Theo Gomes,theo.gomes@gmail.com,Animal Care Gomes S.A.,Brazil
+INQ0464,"Searching for washable pet beds, cotton rope, heavy duty, size around 20cm, order 3000 pcs.",Daniela Flores,daniela.flores@hotmail.com,Paws Flores S.A.,Mexico
+INQ0465,"Need cat scratching boards for our retail chain in Middle Eastern, slow feeder, 40x25cm, MOQ 2000.",Benjamin Rojas,benjamin.rojas@hotmail.com,Animal Rojas S.A.,Chile
+INQ0466,"Require cotton rope tug toys for puppies, foldable, small size, initial order 1500 pcs.",Sofia Esposito,sofia.esposito@petstore.it,Best Pet Esposito S.p.A.,Italy
+INQ0467,"Interested in rope tug toys for dogs, bouncy, wholesale 300+ pcs for South American.",Richard Taylor,richard.taylor@chewy.com,Pet Go Taylor Group,United States
+INQ0468,"Interested in pet water bottles, lightweight, wholesale 1000+ pcs for African.",Thomas Clarke,thomas.clarke@petlandia.co.uk,Pet Mart Clarke Co.,United Kingdom
+INQ0469,"Searching for TPR treat dispenser balls, washable material, 45x28x28cm, MOQ 1000.",Diego Gomez,diego.gomez@gmail.com,Pet Gomez S.A.,Spain
+INQ0470,"Require TPR squeaky toys for pets, adjustable, 80cm length, initial order 1000 pcs.",Charlotte Wilson,charlotte.wilson@petprosperity.com.au,Pawfect Wilson Pty. Ltd.,Australia
+INQ0471,"Need dog poop bag dispensers for our retail chain in South American, durable, large size, MOQ 300.",Anna Schmidt,anna.schmidt@gmail.com,Pet Land Schmidt GmbH & Co. KG,Germany
+INQ0472,"Searching for retractable dog leashes for puppies, stainless steel, 50x40cm, starting at 2000 pcs.",Daniel Wright,daniel.wright@gmail.com,Pawfect Wright Co.,United Kingdom
+INQ0473,"Interested in wholesale dog training clickers, soft material, size around 30cm, need 300+ units.",Miguel Torres,miguel.torres@hotmail.com,Pet Direct Torres S.A. de C.V.,Mexico
+INQ0474,"Want to buy cat scratching boards for dogs, collapsible, approx 18cm, need 500 pieces.",Ananya Reddy,ananya.reddy@gmail.com,Pet Land Reddy LLP,India
+INQ0475,"Need natural rubber dog balls for our retail chain in Middle Eastern, collapsible, large size, MOQ 5000.",Michael Hoffmann,michael.hoffmann@gmx.de,Happy Pet Hoffmann AG,Germany
+INQ0476,"We want to source reflective dog collars, reflective, size around 20cm, starting with 100 pcs trial order.",Yuna Jung,yuna.jung@gmail.com,Pet Express Jung Ltd.,South Korea
+INQ0477,"Need dog training clickers for our retail chain in Asian, foldable, size around 25cm, MOQ 300.",Ahmed Hassan,ahmed.hassan@yahoo.com,Pet Hassan LLC,Egypt
+INQ0478,"Require Christmas plush dog toys for cats, washable, S/M/L, initial order 500 pcs.",Ryo Kobayashi,ryo.kobayashi@petlife.jp,Animal Care Kobayashi Inc.,Japan
+INQ0479,"Interested in wholesale pet first aid kits, nylon material, 45x28x28cm, need 300+ units.",Miguel Torres,miguel.torres@gmail.com,Tails Torres S.A.,Mexico
+INQ0480,"Looking for reflective dog collars suitable for cats, interactive, approximate 45x28x28cm, MOQ 500 pcs.",Anna Schmidt,anna.schmidt@petworld.de,Pawfect Schmidt AG,Germany
+INQ0481,"Want to buy Christmas plush dog toys for pets, squeaky, 15cm diameter, need 1000 pieces.",Thabo Naidoo,thabo.naidoo@petshop.co.za,Animal Naidoo Ltd.,South Africa
+INQ0482,"We want to source slow feeder bowls, waterproof, size around 30cm, starting with 500 pcs trial order.",Daniela Flores,daniela.flores@gmail.com,Pet Zone Flores Ltda.,Mexico
+INQ0483,"Searching for rubber bouncy balls for large dogs, nylon material, 80cm length, starting at 1000 pcs.",Sophie deWit,sophie.dewit@petworld.nl,Pet deWit N.V.,Netherlands
+INQ0484,"Interested in wholesale TPR squeaky toys, plush material, 40x25cm, need 2000+ units.",Chloe Anderson,chloe.anderson@petgo.co.nz,Pet Solutions Anderson Limited,New Zealand
+INQ0485,"Need rubber chew toys, bouncy, for our North American market, MOQ 1500 pcs.",Magda Kaminski,magda.kaminski@zwierzopol.pl,Paws Kaminski S.A.,Poland
+INQ0486,"Looking for reflective dog collars, non-slip, MOQ 300 pcs.",Sean Murphy,sean.murphy@petworld.ie,Pawfect Murphy Ltd.,Ireland
+INQ0487,"Looking for cat tunnel toys, interactive, for New Year season, order 2000 pcs.",Lukas Muller,lukas.muller@bluewin.ch,Wagging Muller AG,Switzerland
+INQ0488,"Want to purchase reflective dog collars, waterproof, TPR material, MOQ 2000.",Sneha Gupta,sneha.gupta@rediffmail.com,Best Pet Gupta Pvt Ltd,India
+INQ0489,"Searching for silicone grooming gloves, stainless steel, small size, MOQ 3000.",Faisal AlHarbi,faisal.alharbi@petworld.sa,Pet Club AlHarbi Ltd.,Saudi Arabia
+INQ0490,"We want to source pet water bottles, non-slip, size around 15cm, starting with 200 pcs trial order.",Miguel Torres,miguel.torres@petshop.mx,Pet Plus Torres Ltda.,Mexico
+INQ0491,"Looking to source interactive cat toys, heavy duty, approximately size around 15cm, order quantity 5000 pcs.",Mai Sato,mai.sato@pethome.jp,Pet Club Sato K.K.,Japan
+INQ0492,"We want to source natural rubber dog balls, interactive, approx 12cm, starting with 1000 pcs trial order.",Taro Yoshida,taro.yoshida@petlife.jp,Wagging Yoshida K.K.,Japan
+INQ0493,"We want to source cat tunnel toys, machine washable, S/M/L, starting with 200 pcs trial order.",Maria Georgiou,maria.georgiou@gmail.com,Paws Georgiou AE,Greece
+INQ0494,"Need slow feeder bowls, adjustable, for our Australian market, MOQ 200 pcs.",Pooja Joshi,pooja.joshi@petmarket.in,Pet Direct Joshi Pvt Ltd,India
+INQ0495,"Require pet carrier bags for large dogs, adjustable, approx 12cm, initial order 100 pcs.",Daniel Wright,daniel.wright@petplanet.co.uk,Pet Wright Group,United Kingdom
+INQ0496,"Looking for automatic pet feeders, machine washable, for Easter season, order 1500 pcs.",Carlos Rodriguez,carlos.rodriguez@hotmail.es,Tails Rodriguez S.A.,Spain
+INQ0497,"Need rubber chew toys for dogs, lightweight, small size, order 3000 pcs.",Beatriz Santos,beatriz.santos@gmail.com,Animal Santos S.A.,Portugal
+INQ0498,"Need pet carrier bags, waterproof, for our European market, MOQ 2000 pcs.",Juan Cruz,juan.cruz@gmail.com,Pet Express Cruz Corp.,Philippines
+INQ0499,"Looking for silicone grooming gloves, durable, for Valentine season, order 3000 pcs.",David Kim,david.kim@gmail.com,Pet Plus Kim Co. Ltd.,South Korea
+INQ0500,"Interested in wholesale pet carrier bags, silicone material, size around 15cm, need 100+ units.",Siti Ismail,siti.ismail@gmail.com,Animal Ismail Sdn. Bhd.,Malaysia
