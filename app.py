@@ -1,18 +1,18 @@
 """
 app.py
 ======
-跨境 B2B 智能询盘与规格匹配助手 — Streamlit 网页应用
+Cross-border B2B Smart Inquiry & Specification Matcher - Streamlit Web App
 
-功能：
-  - 专业 B2B SaaS 风格 UI（自定义 CSS，渐变头部，卡片式布局）
-  - 输入/粘贴海外买家询盘文本，TF-IDF + Cosine Similarity 智能匹配
-  - 匹配结果卡片展示：产品名、供应商公司、联系邮箱、单价、MOQ、认证、交期
-  - 一键发送报价邮件（mailto: 自动生成模板，含产品规格、数量、价格）
-  - 询盘样本展示：买家公司名、联系人、邮箱、国家
-  - 侧边栏：供应商产品库浏览 + 城市筛选
-  - 批量询盘匹配演示
+Features:
+  - Professional B2B SaaS style UI (custom CSS, gradient banner, card layout)
+  - Input/paste buyer inquiry text, TF-IDF + Cosine Similarity smart matching
+  - Match result cards: product name, supplier company, contact email, unit price, MOQ, certification, lead time
+  - One-click quote email sending (mailto: auto-generated template with product specs, quantity, pricing)
+  - Inquiry sample showcase: buyer company name, contact person, email, country
+  - Sidebar: supplier product library browsing + city filter
+  - Batch inquiry matching demo
 
-运行方式：
+Run:
     streamlit run app.py
 """
 
@@ -27,28 +27,28 @@ sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "src
 from matcher import InquiryMatcher
 
 # ---------------------------------------------------------------------------
-# 页面配置
+# Page configuration
 # ---------------------------------------------------------------------------
 
 st.set_page_config(
-    page_title="B2B 智能询盘匹配助手",
+    page_title="B2B Smart Inquiry Matcher",
     page_icon="🏭",
     layout="wide",
     initial_sidebar_state="expanded",
 )
 
 # ---------------------------------------------------------------------------
-# 自定义 CSS — 专业 B2B SaaS 风格
+# Custom CSS - Professional B2B SaaS style
 # ---------------------------------------------------------------------------
 
 st.markdown("""
 <style>
-/* ---------- 全局 ---------- */
+/* ---------- Global ---------- */
 .stApp {
     background: #f0f2f5;
 }
 
-/* ---------- 顶部 Banner ---------- */
+/* ---------- Top Banner ---------- */
 .main-banner {
     background: linear-gradient(135deg, #1a365d 0%, #2563eb 50%, #1e40af 100%);
     padding: 28px 36px;
@@ -68,7 +68,7 @@ st.markdown("""
     margin: 0;
 }
 
-/* ---------- 统计卡片 ---------- */
+/* ---------- Stat Cards ---------- */
 .stat-card {
     background: #ffffff;
     border-radius: 12px;
@@ -89,7 +89,7 @@ st.markdown("""
     margin-top: 4px;
 }
 
-/* ---------- 匹配结果卡片 ---------- */
+/* ---------- Match Result Cards ---------- */
 .result-card {
     background: #ffffff;
     border-radius: 14px;
@@ -180,7 +180,7 @@ st.markdown("""
     color: #1e293b;
 }
 
-/* ---------- 询盘卡片 ---------- */
+/* ---------- Inquiry Cards ---------- */
 .inquiry-card {
     background: #ffffff;
     border-radius: 12px;
@@ -210,7 +210,7 @@ st.markdown("""
     border-left: 3px solid #cbd5e1;
 }
 
-/* ---------- 邮件模板区 ---------- */
+/* ---------- Email Template Box ---------- */
 .email-template-box {
     background: #1e293b;
     color: #e2e8f0;
@@ -224,7 +224,7 @@ st.markdown("""
     border: 1px solid #334155;
 }
 
-/* ---------- 按钮样式增强 ---------- */
+/* ---------- Button Enhancement ---------- */
 .stButton > button {
     border-radius: 10px;
     font-weight: 600;
@@ -235,13 +235,13 @@ st.markdown("""
     box-shadow: 0 4px 12px rgba(37, 99, 235, 0.25);
 }
 
-/* ---------- 侧边栏 ---------- */
+/* ---------- Sidebar ---------- */
 section[data-testid="stSidebar"] {
     background: #ffffff;
     border-right: 1px solid #e2e8f0;
 }
 
-/* ---------- 分割线 ---------- */
+/* ---------- Divider ---------- */
 hr {
     border: none;
     border-top: 1px solid #e2e8f0;
@@ -252,7 +252,7 @@ hr {
 
 
 # ---------------------------------------------------------------------------
-# 数据加载 & 缓存
+# Data loading & caching
 # ---------------------------------------------------------------------------
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -276,7 +276,7 @@ def load_suppliers(csv_path):
 
 
 if not os.path.exists(SUPPLIERS_CSV):
-    st.error("未找到供应商产品数据！请先运行 `python data/generate_mock_data.py`")
+    st.error("Supplier product data not found! Please run `python data/generate_mock_data.py` first.")
     st.code("python data/generate_mock_data.py", language="bash")
     st.stop()
 
@@ -285,66 +285,66 @@ suppliers_df = load_suppliers(SUPPLIERS_CSV)
 inquiries_df = load_inquiries(INQUIRIES_CSV) if os.path.exists(INQUIRIES_CSV) else pd.DataFrame()
 
 # ---------------------------------------------------------------------------
-# 顶部 Banner
+# Top Banner
 # ---------------------------------------------------------------------------
 
 st.markdown("""
 <div class="main-banner">
-    <h1>🏭 跨境 B2B 智能询盘与规格匹配助手</h1>
-    <p>TF-IDF + Cosine Similarity 智能匹配引擎 · 自动推荐最契合的供应商产品 · 一键发送报价邮件</p>
+    <h1>🏭 Cross-Border B2B Smart Inquiry & Specification Matcher</h1>
+    <p>TF-IDF + Cosine Similarity matching engine · Auto-recommends best-matching supplier products · One-click quote email</p>
 </div>
 """, unsafe_allow_html=True)
 
 # ---------------------------------------------------------------------------
-# 统计数据条
+# Statistics bar
 # ---------------------------------------------------------------------------
 
 stat_cols = st.columns(5)
 with stat_cols[0]:
-    st.markdown('<div class="stat-card"><div class="stat-value">{}</div><div class="stat-label">供应商产品</div></div>'.format(len(suppliers_df)), unsafe_allow_html=True)
+    st.markdown('<div class="stat-card"><div class="stat-value">{}</div><div class="stat-label">Supplier Products</div></div>'.format(len(suppliers_df)), unsafe_allow_html=True)
 with stat_cols[1]:
     unique_suppliers = suppliers_df["supplier_name"].nunique() if "supplier_name" in suppliers_df.columns else 0
-    st.markdown('<div class="stat-card"><div class="stat-value">{}</div><div class="stat-label">供应商企业</div></div>'.format(unique_suppliers), unsafe_allow_html=True)
+    st.markdown('<div class="stat-card"><div class="stat-value">{}</div><div class="stat-label">Supplier Companies</div></div>'.format(unique_suppliers), unsafe_allow_html=True)
 with stat_cols[2]:
-    st.markdown('<div class="stat-card"><div class="stat-value">{}</div><div class="stat-label">买家询盘</div></div>'.format(len(inquiries_df)), unsafe_allow_html=True)
+    st.markdown('<div class="stat-card"><div class="stat-value">{}</div><div class="stat-label">Buyer Inquiries</div></div>'.format(len(inquiries_df)), unsafe_allow_html=True)
 with stat_cols[3]:
     countries = inquiries_df["country"].nunique() if "country" in inquiries_df.columns and len(inquiries_df) > 0 else 0
-    st.markdown('<div class="stat-card"><div class="stat-value">{}</div><div class="stat-label">买家国家</div></div>'.format(countries), unsafe_allow_html=True)
+    st.markdown('<div class="stat-card"><div class="stat-value">{}</div><div class="stat-label">Buyer Countries</div></div>'.format(countries), unsafe_allow_html=True)
 with stat_cols[4]:
     cities = suppliers_df["city"].nunique() if "city" in suppliers_df.columns else 0
-    st.markdown('<div class="stat-card"><div class="stat-value">{}</div><div class="stat-label">产地城市</div></div>'.format(cities), unsafe_allow_html=True)
+    st.markdown('<div class="stat-card"><div class="stat-value">{}</div><div class="stat-label">Production Cities</div></div>'.format(cities), unsafe_allow_html=True)
 
 st.divider()
 
 # ---------------------------------------------------------------------------
-# 侧边栏 — 供应商产品库
+# Sidebar - Supplier Product Library
 # ---------------------------------------------------------------------------
 
 with st.sidebar:
-    st.markdown("### 📦 供应商产品库")
-    st.caption(f"共 {len(suppliers_df)} 条产品 · {unique_suppliers} 家供应商")
+    st.markdown("### 📦 Supplier Product Library")
+    st.caption(f"{len(suppliers_df)} products · {unique_suppliers} suppliers")
 
-    # 城市筛选
+    # City filter
     if "city" in suppliers_df.columns:
-        all_cities = ["全部"] + sorted(suppliers_df["city"].unique().tolist())
-        selected_city = st.selectbox("🏭 按产地城市筛选", all_cities)
-        if selected_city != "全部":
+        all_cities = ["All"] + sorted(suppliers_df["city"].unique().tolist())
+        selected_city = st.selectbox("🏭 Filter by production city", all_cities)
+        if selected_city != "All":
             filtered = suppliers_df[suppliers_df["city"] == selected_city]
         else:
             filtered = suppliers_df
     else:
         filtered = suppliers_df
 
-    # 国家筛选
+    # Country filter
     if "country" in filtered.columns and filtered["country"].nunique() > 1:
-        all_countries = ["全部"] + sorted(filtered["country"].unique().tolist())
-        selected_country = st.selectbox("🌍 按供应商国家筛选", all_countries)
-        if selected_country != "全部":
+        all_countries = ["All"] + sorted(filtered["country"].unique().tolist())
+        selected_country = st.selectbox("🌍 Filter by supplier country", all_countries)
+        if selected_country != "All":
             filtered = filtered[filtered["country"] == selected_country]
 
-    st.caption(f"当前筛选: {len(filtered)} 条产品")
+    st.caption(f"Current filter: {len(filtered)} products")
 
-    # 产品表格
+    # Product table
     display_cols = ["product_id", "product_name", "supplier_name", "country", "unit_price", "moq"]
     available_cols = [c for c in display_cols if c in filtered.columns]
     st.dataframe(
@@ -360,42 +360,42 @@ with st.sidebar:
     )
 
     st.divider()
-    st.markdown("### 📊 技术架构")
+    st.markdown("### 📊 Tech Stack")
     st.markdown("""
-    - **算法**: TF-IDF Vectorizer + Cosine Similarity
+    - **Algorithm**: TF-IDF Vectorizer + Cosine Similarity
     - **N-gram**: Unigram + Bigram
-    - **停用词**: English stopwords
-    - **前端**: Streamlit + Custom CSS
-    - **数据**: pandas
+    - **Stop words**: English stopwords
+    - **Frontend**: Streamlit + Custom CSS
+    - **Data**: pandas
     """)
 
 # ---------------------------------------------------------------------------
-# 主面板 — Tab 切换
+# Main panel - Tab navigation
 # ---------------------------------------------------------------------------
 
-tab_match, tab_inquiries = st.tabs(["🔍 智能匹配", "📋 买家询盘列表"])
+tab_match, tab_inquiries = st.tabs(["🔍 Smart Match", "📋 Buyer Inquiry List"])
 
 # ===========================================================================
-# Tab 1: 智能匹配
+# Tab 1: Smart Match
 # ===========================================================================
 
 with tab_match:
     col_input, col_examples = st.columns([3, 2])
 
     with col_examples:
-        st.markdown("#### 📝 示例询盘")
-        st.caption("选择一条真实买家询盘快速体验")
+        st.markdown("#### 📝 Sample Inquiries")
+        st.caption("Select a real buyer inquiry to try it out")
 
         if len(inquiries_df) > 0:
-            # 国家筛选 — 避免下拉框太长
-            inq_countries = ["全部"] + sorted(inquiries_df["country"].unique().tolist())
-            sel_inq_country = st.selectbox("🌍 按买家国家筛选", inq_countries, key="inq_country")
-            if sel_inq_country != "全部":
+            # Country filter - avoid overly long dropdown
+            inq_countries = ["All"] + sorted(inquiries_df["country"].unique().tolist())
+            sel_inq_country = st.selectbox("🌍 Filter by buyer country", inq_countries, key="inq_country")
+            if sel_inq_country != "All":
                 filtered_inq = inquiries_df[inquiries_df["country"] == sel_inq_country]
             else:
                 filtered_inq = inquiries_df
 
-            # 随机抽样最多 50 条供选择
+            # Random sample up to 50 for selection
             if len(filtered_inq) > 50:
                 sample_inq = filtered_inq.sample(n=50, random_state=42).sort_values("inquiry_id").reset_index(drop=True)
             else:
@@ -411,17 +411,17 @@ with tab_match:
                 "Looking for plush squeaky dog toys, size around 20cm, durable material, MOQ 500 pcs.",
                 "Need natural rubber dog balls, bouncy and chew resistant, diameter 6-8cm, bulk order 1000 pcs.",
             ]
-            example_labels = [f"示例 #{i+1}" for i in range(len(example_options))]
+            example_labels = [f"Example #{i+1}" for i in range(len(example_options))]
 
         selected_idx = st.selectbox(
-            "选择询盘样本：",
+            "Select an inquiry sample:",
             options=range(len(example_options)),
             format_func=lambda i: example_labels[i] if i < len(example_labels) else "",
         )
 
-        use_example = st.button("📋 填充到输入框", use_container_width=True)
+        use_example = st.button("📋 Load into input box", use_container_width=True)
 
-        # 展示选中询盘的买家信息
+        # Display selected inquiry buyer info
         if len(sample_inq) > 0 and selected_idx is not None and selected_idx < len(sample_inq):
             sel = sample_inq.iloc[selected_idx]
             st.markdown("---")
@@ -434,53 +434,53 @@ with tab_match:
             """, unsafe_allow_html=True)
 
     with col_input:
-        st.markdown("#### 🔍 买家询盘输入")
+        st.markdown("#### 🔍 Buyer Inquiry Input")
 
         default_text = example_options[selected_idx] if (use_example or selected_idx is not None) else ""
 
         buyer_inquiry = st.text_area(
-            "询盘文本（支持中英文）：",
+            "Inquiry text (supports English):",
             value=default_text,
             height=100,
-            placeholder="例如：Looking for plush squeaky dog toys, size around 20cm, durable material, MOQ 500 pcs.",
+            placeholder="e.g.: Looking for plush squeaky dog toys, size around 20cm, durable material, MOQ 500 pcs.",
         )
 
         col_n, col_btn = st.columns([1, 2])
         with col_n:
-            top_n = st.slider("匹配数量 (Top-N)", min_value=1, max_value=10, value=3)
+            top_n = st.slider("Match count (Top-N)", min_value=1, max_value=10, value=3)
         with col_btn:
             st.write("")
             st.write("")
-            match_btn = st.button("🚀 智能匹配", type="primary", use_container_width=True)
+            match_btn = st.button("🚀 Smart Match", type="primary", use_container_width=True)
 
-    # ---------- 匹配结果 ----------
+    # ---------- Match results ----------
 
     if match_btn:
         if not buyer_inquiry.strip():
-            st.warning("请输入询盘文本后再进行匹配。")
+            st.warning("Please enter inquiry text before matching.")
         else:
-            with st.spinner("正在智能匹配供应商产品..."):
+            with st.spinner("Smart matching supplier products..."):
                 results = matcher.match(buyer_inquiry, top_n=top_n)
 
             st.markdown("---")
-            st.markdown(f"#### ✅ 匹配结果（Top-{len(results)}）")
-            st.write(f"共扫描 {len(matcher.df)} 条产品，为您推荐以下最契合的供应商：")
+            st.markdown(f"#### ✅ Match Results (Top-{len(results)})")
+            st.write(f"Scanned {len(matcher.df)} products. Here are the best-matching suppliers:")
 
             for i, row in results.iterrows():
                 sim_score = row["similarity"]
 
-                # 相似度等级
+                # Similarity level
                 if sim_score >= 0.5:
                     badge_class = "sim-high"
-                    badge_text = "高度匹配"
+                    badge_text = "High Match"
                 elif sim_score >= 0.25:
                     badge_class = "sim-mid"
-                    badge_text = "中度匹配"
+                    badge_text = "Medium Match"
                 else:
                     badge_class = "sim-low"
-                    badge_text = "低度匹配"
+                    badge_text = "Low Match"
 
-                # 供应商信息
+                # Supplier info
                 supplier_name = row.get("supplier_name", "N/A")
                 contact_email = row.get("contact_email", "")
                 country = row.get("country", "")
@@ -488,7 +488,7 @@ with tab_match:
                 lead_time = row.get("lead_time", "")
                 certification = row.get("certification", "")
 
-                # 渲染卡片
+                # Render card
                 st.markdown(f"""
                 <div class="result-card">
                     <div class="result-card-header">
@@ -500,27 +500,27 @@ with tab_match:
                     </div>
                     <div class="result-card-body">
                         <div class="info-item">
-                            <div class="info-label">单价</div>
+                            <div class="info-label">Unit Price</div>
                             <div class="info-value">${row['unit_price']:.2f}</div>
                         </div>
                         <div class="info-item">
-                            <div class="info-label">起订量 MOQ</div>
+                            <div class="info-label">MOQ</div>
                             <div class="info-value">{row['moq']} pcs</div>
                         </div>
                         <div class="info-item">
-                            <div class="info-label">尺寸</div>
+                            <div class="info-label">Dimensions</div>
                             <div class="info-value">{row['dimensions']}</div>
                         </div>
                         <div class="info-item">
-                            <div class="info-label">材质</div>
+                            <div class="info-label">Material</div>
                             <div class="info-value">{row['material']}</div>
                         </div>
                         <div class="info-item">
-                            <div class="info-label">交期</div>
+                            <div class="info-label">Lead Time</div>
                             <div class="info-value">{lead_time}</div>
                         </div>
                         <div class="info-item">
-                            <div class="info-label">认证</div>
+                            <div class="info-label">Certification</div>
                             <div class="info-value">{certification}</div>
                         </div>
                     </div>
@@ -532,32 +532,32 @@ with tab_match:
                 </div>
                 """, unsafe_allow_html=True)
 
-                # ---------- 一键发送报价邮件 ----------
-                with st.expander(f"✉️ 一键发送报价邮件 — {row['product_name']}", expanded=(i == 0)):
-                    email_tab_view, email_tab_send = st.tabs(["📋 邮件预览", "📤 发送设置"])
+                # ---------- One-click quote email ----------
+                with st.expander(f"✉️ One-Click Quote Email — {row['product_name']}", expanded=(i == 0)):
+                    email_tab_view, email_tab_send = st.tabs(["📋 Email Preview", "📤 Send Settings"])
 
                     with email_tab_send:
-                        # 发件人信息
+                        # Sender info
                         sender_cols = st.columns(2)
                         with sender_cols[0]:
-                            sender_name = st.text_input("您的称呼", value="Export Manager", key=f"sender_name_{i}")
+                            sender_name = st.text_input("Your name", value="Export Manager", key=f"sender_name_{i}")
                         with sender_cols[1]:
-                            sender_email = st.text_input("您的邮箱", value="export@mycompany.com", key=f"sender_email_{i}")
+                            sender_email = st.text_input("Your email", value="export@mycompany.com", key=f"sender_email_{i}")
 
-                        # 收件人（供应商邮箱）
-                        recipient = st.text_input("收件人（供应商邮箱）", value=contact_email, key=f"recipient_{i}")
+                        # Recipient (supplier email)
+                        recipient = st.text_input("Recipient (supplier email)", value=contact_email, key=f"recipient_{i}")
 
-                        # 报价参数
+                        # Quote parameters
                         qty_cols = st.columns(3)
                         with qty_cols[0]:
-                            order_qty = st.number_input("采购数量", min_value=int(row["moq"]), value=int(row["moq"]), step=100, key=f"qty_{i}")
+                            order_qty = st.number_input("Order quantity", min_value=int(row["moq"]), value=int(row["moq"]), step=100, key=f"qty_{i}")
                         with qty_cols[1]:
-                            quoted_price = st.number_input("报价单价 ($)", min_value=0.01, value=float(row["unit_price"]), step=0.05, key=f"price_{i}")
+                            quoted_price = st.number_input("Quoted unit price ($)", min_value=0.01, value=float(row["unit_price"]), step=0.05, key=f"price_{i}")
                         with qty_cols[2]:
-                            currency = st.selectbox("币种", ["USD", "EUR", "GBP", "CNY"], key=f"curr_{i}")
+                            currency = st.selectbox("Currency", ["USD", "EUR", "GBP", "CNY"], key=f"curr_{i}")
 
                     with email_tab_view:
-                        # 生成邮件模板
+                        # Generate email template
                         subject = f"Inquiry Quote: {row['product_name']} - Order {order_qty} pcs"
                         body = f"""Dear {supplier_name} Team,
 
@@ -604,7 +604,7 @@ Best regards,
                         st.markdown("")
                         st.markdown(f'<div class="email-template-box">{body}</div>', unsafe_allow_html=True)
 
-                        # 一键发送按钮 — mailto 链接
+                        # One-click send button - mailto link
                         mailto_url = urllib.parse.urlencode({
                             "subject": subject,
                             "body": body,
@@ -623,56 +623,56 @@ Best regards,
                             text-decoration: none;
                             margin-top: 12px;
                             box-shadow: 0 2px 10px rgba(37, 99, 235, 0.3);
-                        ">📧 一键发送报价邮件</a>
+                        ">📧 Send Quote Email</a>
                         """, unsafe_allow_html=True)
 
-                        st.caption(f"点击后将打开您的默认邮件客户端，收件人：{recipient}")
+                        st.caption(f"Clicking this will open your default email client. Recipient: {recipient}")
 
-            # ---------- 匹配明细表 ----------
+            # ---------- Match results table ----------
             st.markdown("---")
-            st.markdown("#### 📊 匹配结果明细表")
+            st.markdown("#### 📊 Match Results Detail Table")
             table_cols = [c for c in ["product_id", "product_name", "supplier_name", "material", "dimensions", "moq", "unit_price", "lead_time", "certification", "similarity_pct"] if c in results.columns]
             rename_map = {
-                "product_id": "产品编号", "product_name": "产品名称", "supplier_name": "供应商",
-                "material": "材质", "dimensions": "尺寸", "moq": "MOQ", "unit_price": "单价",
-                "lead_time": "交期", "certification": "认证", "similarity_pct": "相似度",
+                "product_id": "Product ID", "product_name": "Product Name", "supplier_name": "Supplier",
+                "material": "Material", "dimensions": "Dimensions", "moq": "MOQ", "unit_price": "Unit Price",
+                "lead_time": "Lead Time", "certification": "Certification", "similarity_pct": "Similarity",
             }
             st.dataframe(
                 results[table_cols].rename(columns=rename_map),
                 use_container_width=True,
                 hide_index=True,
                 column_config={
-                    "单价": st.column_config.NumberColumn(format="$%.2f"),
+                    "Unit Price": st.column_config.NumberColumn(format="$%.2f"),
                 },
             )
 
 # ===========================================================================
-# Tab 2: 买家询盘列表
+# Tab 2: Buyer Inquiry List
 # ===========================================================================
 
 with tab_inquiries:
-    st.markdown("#### 📋 买家询盘列表")
-    st.caption(f"共 {len(inquiries_df)} 条询盘 · 来自 {inquiries_df['country'].nunique() if len(inquiries_df) > 0 else 0} 个国家")
+    st.markdown("#### 📋 Buyer Inquiry List")
+    st.caption(f"{len(inquiries_df)} inquiries · from {inquiries_df['country'].nunique() if len(inquiries_df) > 0 else 0} countries")
 
     if len(inquiries_df) > 0:
-        # 国家筛选
-        country_list = ["全部"] + sorted(inquiries_df["country"].unique().tolist())
-        filter_country = st.selectbox("🌍 按国家筛选", country_list, key="country_filter")
-        filtered_inq = inquiries_df if filter_country == "全部" else inquiries_df[inquiries_df["country"] == filter_country]
+        # Country filter
+        country_list = ["All"] + sorted(inquiries_df["country"].unique().tolist())
+        filter_country = st.selectbox("🌍 Filter by country", country_list, key="country_filter")
+        filtered_inq = inquiries_df if filter_country == "All" else inquiries_df[inquiries_df["country"] == filter_country]
 
-        # 分页 — 每页 20 条
+        # Pagination - 20 per page
         page_size = 20
         total_pages = max(1, (len(filtered_inq) + page_size - 1) // page_size)
-        page = st.number_input("📄 页码", min_value=1, max_value=total_pages, value=1, key="inq_page")
+        page = st.number_input("📄 Page", min_value=1, max_value=total_pages, value=1, key="inq_page")
         start_idx = (page - 1) * page_size
         end_idx = start_idx + page_size
         page_data = filtered_inq.iloc[start_idx:end_idx]
 
-        st.caption(f"第 {page}/{total_pages} 页 · 显示 {len(page_data)} 条（共 {len(filtered_inq)} 条）")
+        st.caption(f"Page {page}/{total_pages} · showing {len(page_data)} of {len(filtered_inq)} inquiries")
 
-        # 询盘卡片列表
+        # Inquiry card list
         for _, row in page_data.iterrows():
-            # 快速匹配按钮
+            # Quick match button
             col_card, col_action = st.columns([4, 1])
 
             with col_card:
@@ -689,12 +689,12 @@ with tab_inquiries:
             with col_action:
                 st.write("")
                 st.write("")
-                if st.button(f"🔍 匹配", key=f"quick_match_{row['inquiry_id']}", use_container_width=True):
-                    # 快速匹配 → 切到匹配 Tab
+                if st.button(f"🔍 Match", key=f"quick_match_{row['inquiry_id']}", use_container_width=True):
+                    # Quick match -> switch to Match tab
                     st.session_state["quick_inquiry"] = row["buyer_text"]
-                    st.info(f"已加载询盘，请切换到「智能匹配」Tab 查看结果。\n\n**询盘内容：** {row['buyer_text'][:80]}...")
+                    st.info(f"Inquiry loaded. Please switch to the \"Smart Match\" tab to view results.\n\n**Inquiry:** {row['buyer_text'][:80]}...")
 
-                # 一键邮件联系买家
+                # One-click email to reply to buyer
                 mailto_buyer = f"mailto:{row['buyer_email']}?subject=Re: Product Inquiry ({row['inquiry_id']})&body=Dear {row['buyer_name']},%0D%0A%0D%0AThank you for your inquiry. We have reviewed your requirements and would like to propose the following products for your consideration.%0D%0A%0D%0APlease find attached our product catalog and quotation for your reference.%0D%0A%0D%0ABest regards"
                 st.markdown(f"""
                 <a href="{mailto_buyer}" style="
@@ -708,16 +708,16 @@ with tab_inquiries:
                     text-decoration: none;
                     text-align: center;
                     width: 100%;
-                ">📧 回复买家</a>
+                ">📧 Reply to Buyer</a>
                 """, unsafe_allow_html=True)
 
-        # 批量匹配
+        # Batch matching
         st.markdown("---")
-        st.markdown("#### 📊 批量匹配总览")
-        batch_limit = st.slider("批量匹配数量上限", min_value=10, max_value=min(200, len(filtered_inq)), value=min(50, len(filtered_inq)), key="batch_limit_slider")
-        if st.button(f"🚀 批量匹配当前筛选下的询盘（最多 {batch_limit} 条）", type="primary"):
+        st.markdown("#### 📊 Batch Match Overview")
+        batch_limit = st.slider("Batch match limit", min_value=10, max_value=min(200, len(filtered_inq)), value=min(50, len(filtered_inq)), key="batch_limit_slider")
+        if st.button(f"🚀 Batch match filtered inquiries (up to {batch_limit})", type="primary"):
             batch_inq = filtered_inq.head(batch_limit)
-            with st.spinner(f"正在批量匹配 {len(batch_inq)} 条询盘，扫描 {len(matcher.df)} 条产品..."):
+            with st.spinner(f"Batch matching {len(batch_inq)} inquiries against {len(matcher.df)} products..."):
                 batch_results = matcher.match_batch(batch_inq, top_n=1)
 
             batch_rows = []
@@ -727,29 +727,29 @@ with tab_inquiries:
                 if res is not None and len(res) > 0:
                     top = res.iloc[0]
                     batch_rows.append({
-                        "询盘编号": inq_id,
-                        "买家": inq_row["buyer_name"],
-                        "买家公司": inq_row["company"],
-                        "国家": inq_row["country"],
-                        "询盘摘要": inq_row["buyer_text"][:55] + "...",
-                        "最佳匹配产品": top["product_name"],
-                        "供应商": top.get("supplier_name", ""),
-                        "相似度": top["similarity_pct"],
-                        "单价": f"${top['unit_price']:.2f}",
+                        "Inquiry ID": inq_id,
+                        "Buyer": inq_row["buyer_name"],
+                        "Buyer Company": inq_row["company"],
+                        "Country": inq_row["country"],
+                        "Inquiry Summary": inq_row["buyer_text"][:55] + "...",
+                        "Best Match Product": top["product_name"],
+                        "Supplier": top.get("supplier_name", ""),
+                        "Similarity": top["similarity_pct"],
+                        "Unit Price": f"${top['unit_price']:.2f}",
                         "MOQ": f"{top['moq']} pcs",
-                        "供应商邮箱": top.get("contact_email", ""),
+                        "Supplier Email": top.get("contact_email", ""),
                     })
 
             batch_df = pd.DataFrame(batch_rows)
             st.dataframe(batch_df, use_container_width=True, hide_index=True)
 
-            st.success(f"批量匹配完成！共处理 {len(batch_rows)} 条询盘。")
+            st.success(f"Batch matching complete! Processed {len(batch_rows)} inquiries.")
 
     else:
-        st.info("暂无询盘数据。请先运行 `python data/generate_mock_data.py` 生成数据。")
+        st.info("No inquiry data available. Please run `python data/generate_mock_data.py` first to generate data.")
 
 # ---------------------------------------------------------------------------
-# 页脚
+# Footer
 # ---------------------------------------------------------------------------
 
 st.divider()
