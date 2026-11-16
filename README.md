@@ -46,7 +46,10 @@ B2B-Smart-Inquiry-Matcher/
 
 ## Quick Start
 
-> **Note**: All commands should be run from the project root directory `B2B-Smart-Inquiry-Matcher/`.
+> **The fastest way**: On Windows, double-click **`setup.bat`** in the project folder. It checks Python, installs dependencies, generates data if missing, and opens the app in your browser.
+> For the full step-by-step guide, see `START_HERE.md`.
+
+> **Note**: All commands below should be run from the project root directory `B2B-Smart-Inquiry-Matcher/`.
 > If you are currently in `C:\Windows\System32` or a system directory, please `cd` to the project directory first.
 
 ### Prerequisites
@@ -58,18 +61,19 @@ B2B-Smart-Inquiry-Matcher/
 
 ```bash
 git clone https://github.com/panpan54847/B2B-Smart-Inquiry-Matcher.git
-cd B2B-Smart-Inquiry-Matcher
 ```
+
+Then open the folder you just cloned. For example, if you cloned into your user folder, open PowerShell there:
+
+```powershell
+cd "C:\Users\48247\B2B-Smart-Inquiry-Matcher"
+```
+
+> Replace `C:\Users\48247\B2B-Smart-Inquiry-Matcher` with the **actual path** where you cloned the project. Do not literally type `C:\path\to\...`.
 
 ### Step 2: Install Dependencies
 
 ```bash
-pip install -r requirements.txt
-```
-
-**Windows PowerShell users**: If the path contains spaces, wrap it in double quotes:
-```powershell
-cd "C:\path\to\B2B-Smart-Inquiry-Matcher"
 pip install -r requirements.txt
 ```
 
